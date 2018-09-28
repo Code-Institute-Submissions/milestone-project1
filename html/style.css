@@ -1,0 +1,728 @@
+/*----------------Top of Page Button-------------------*/
+
+#myBtn {
+ display: none;
+ /* Hidden by default */
+ position: fixed;
+ /* Fixed/sticky position */
+ bottom: 20px;
+ /* Place the button at the bottom of the page */
+ right: 30px;
+ /* Place the button 30px from the right */
+ z-index: 99;
+ /* Make sure it does not overlap */
+ border: none;
+ /* Remove borders */
+ outline: none;
+ /* Remove outline */
+ background-color: #f05f40;
+ /* Set a background color */
+ color: white;
+ /* Text color */
+ cursor: pointer;
+ /* Add a mouse pointer on hover */
+ padding: 15px;
+ /* Some padding */
+ border-radius: 10px;
+ /* Rounded corners */
+ font-size: 18px;
+ /* Increase font size */
+}
+
+#myBtn :hover {
+ background-color: #ffffff;
+ /* Add a dark-grey background on hover */
+}
+
+
+/*nav bar*/
+
+.navbar-inverse {
+ background-color: #CC00000;
+ border-color: transparent;
+}
+
+.navbar navbar-inverse {
+ position: fixed;
+ top: 0;
+ left: 0;
+ z-index: 1;
+ border: 0;
+ margin: 0px;
+ padding-left: 0px;
+ padding-right: 0px;
+ width: 100%;
+}
+
+.container-fluid {
+ margin: 0px;
+}
+
+.navbar-brand {
+ height: 50px;
+ padding: 0px 0px;
+ position: relative;
+}
+
+.navbar-default .navbar-collapse {
+ border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+ border: 0;
+}
+
+.navbar-default .navbar-toggle:hover {
+ background-color: transparent;
+}
+
+
+.navbar .navbar-brand {
+ font-weight: bold;
+ color: white;
+}
+
+.navbar-default .navbar-nav a {
+ font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+ color: white;
+ background: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+ color: white;
+}
+
+.navbar-btn {
+ border: 0;
+ border-radius: 16px;
+ width: 100px;
+ background-color: #f05f40;
+ color: white;
+}
+
+.navbar-toggle {
+ position: relative;
+ float: right;
+ padding: 9px 10px;
+ margin-top: 8px;
+ margin-right: 15px;
+ margin-bottom: 8px;
+ background-color: transparent;
+ border: none;
+ border-radius: 0;
+}
+
+.navbar-collapse {
+ padding-right: 25px;
+ padding-left: 30px;
+ overflow-x: visible;
+ -webkit-overflow-scrolling: touch;
+ border-top: 1px solid transparent;
+ -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+ box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+}
+
+
+
+
+
+
+/*background for all pages*/
+
+body {
+ text-align: center;
+ color: #fafafa;
+ height: 100%;
+ background: url('./images/black-sabbath-collage.jpg') no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+}
+
+/* index*/
+
+.transbox {
+ margin: 30px;
+ background-color: #303030;
+ border: 1px solid black;
+ opacity: 0.8;
+
+}
+
+.transbox h1 {
+ font-weight: bold;
+ color: #FFFFFF;
+ text-align: center;
+}
+
+.transbox p {
+ margin: 5%;
+ font-weight: bold;
+ color: #FFFFFF;
+ text-align: center;
+}
+
+.btn-default {
+ color: #fff;
+ background-color: #f05f40;
+ border-color: #f05f40;
+}
+
+.btn {
+ display: inline-block;
+ padding: 1px;
+ margin-bottom: 0;
+ font-size: 14px;
+ font-weight: 400;
+ line-height: 1.42857143;
+ text-align: center;
+ white-space: nowrap;
+ vertical-align: middle;
+ -ms-touch-action: manipulation;
+ touch-action: manipulation;
+ cursor: pointer;
+ -webkit-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+ background-image: none;
+ border: 1px solid transparent;
+ border-radius: 4px;
+}
+
+
+/* music page */
+
+.header-logo {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
+
+
+.videos {
+ text-align: center;
+ color: #FFFFFF;
+}
+
+.videogroup {
+ float: left;
+}
+
+
+
+/*albums page*/
+
+.thumbnail {
+ display: block;
+ padding: 0px;
+ margin-bottom: 20px;
+ line-height: 1.42857143;
+ background-color: transparent;
+ border: none;
+ -webkit-transition: border .2s ease-in-out;
+ -o-transition: border .2s ease-in-out;
+ transition: border .2s ease-in-out;
+}
+
+ul {
+ text-align: center;
+ list-style: inside;
+}
+
+.thumbnail .caption {
+ padding: 5px;
+ color: #FFFFFF;
+ text-align: center;
+}
+
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img,
+.img-responsive,
+.thumbnail a>img,
+.thumbnail>img {
+ display: block;
+ width: 100px;
+ height: 100px;
+}
+
+/* band page */
+
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img,
+.img-responsive,
+.thumbnail a>img,
+.thumbnail>img {
+ display: inline-block;
+ width: 400px;
+ height: 400px;
+}
+
+
+
+
+/* Style the Image Used to Trigger the Modal */
+
+#Osbourneimg,
+#tonyimg,
+#geezerImg,
+#wardImg {
+ height: 150px;
+ width: 150px;
+ position: relative;
+ border-radius: 50%;
+ cursor: pointer;
+ transition: 0.7s;
+}
+
+#Osbourneimg:hover,
+#tonyimg:hover,
+#geezerImg:hover,
+#wardImg:hover {
+ opacity: 0.7;
+
+}
+
+/* Modal image position*/
+
+.media-body,
+.media-left,
+.media-right {
+ display: table-cell;
+ vertical-align: middle;
+}
+
+/* The Modal (background) */
+
+.modal-band {
+ display: none;
+ /* Hidden by default */
+ position: fixed;
+ /* Stay in place */
+ z-index: 1;
+ /* Sit on top */
+ padding-top: 100px;
+ /* Location of the box */
+ left: 0;
+ top: 0;
+ width: 100%;
+ /* Full width */
+ height: 100%;
+ /* Full height */
+ overflow: auto;
+ /* Enable scroll if needed */
+ background-color: rgb(0, 0, 0);
+ /* Fallback color */
+ background-color: rgba(0, 0, 0, 0.9);
+ /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+
+.modal-info,
+.modal-two,
+.modal-three,
+.modal-four {
+ margin: auto;
+ display: block;
+ width: 80%;
+ max-width: 500px;
+ height: 500px;
+ margin-top: -40px;
+ border-radius: 12px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+
+#caption,
+#captionKR,
+#captionCW,
+#captionRW {
+ margin: auto;
+ display: block;
+ width: 80%;
+ max-width: 700px;
+ text-align: center;
+ color: #ccc;
+ padding: 10px 0;
+ height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+
+.modal-info,
+.modal-two,
+.modal-three,
+.modal-four,
+#caption,
+#captionKR,
+#captionCW,
+#captionRW {
+ animation-name: zoom;
+ animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+ from {
+  transform: scale(0)
+ }
+ to {
+  transform: scale(1)
+ }
+}
+
+/* The Close Button */
+
+.close-band,
+.close-two,
+.close-three,
+.close-four {
+ position: absolute;
+ top: 15px;
+ right: 35px;
+ color: #f1f1f1;
+ font-size: 40px;
+ font-weight: bold;
+ transition: 0.3s;
+}
+
+.close-band:hover,
+.close-band:focus,
+.close-two:hover,
+.close-two:focus,
+.close-three:hover,
+.close-three:focus,
+.close-four:hover,
+.close-four:focus {
+ color: #bbb;
+ text-decoration: none;
+ cursor: pointer;
+}
+
+
+
+/* footer */
+
+.social-links li a i {
+ width: 45px;
+ height: 45px;
+ padding: 19px 0;
+ border-radius: 50%;
+ font-size: 22px;
+ left: 0;
+ line-height: 7px;
+ text-align: center;
+ color: #fafafa;
+ transition: transform;
+ transition-duration: 1s;
+}
+
+.general-sub {
+ color: #fafafa;
+}
+
+.social-links li a i:hover {
+ transform: rotate(720deg);
+}
+
+
+.form-group {
+ margin-bottom: 15px;
+ color: #333;
+}
+
+.modal-header {
+ padding: 15px;
+ border-bottom: 1px solid #ccc;
+ color: #333;
+}
+
+.modal-title {
+ font-weight: bolder;
+ text-align: center;
+
+}
+
+.modal-content {
+ margin-top: 30px
+}
+
+select {
+ border-radius: 4px;
+ margin-right: 5px;
+
+}
+
+
+/*----------------Media Queries-------------------*/
+
+@media (min-width: 992px) {
+ .text-fix {
+  font-size: 1.3em;
+ }
+}
+
+@media (max-width: 1300px) {
+ .header-pic {
+  height: 45vh;
+ }
+
+ .footer-pic {
+  height: 32.5vh;
+ }
+
+
+
+
+
+
+}
+
+@media (max-width: 993px) {
+ .header-pic {
+  height: 40vh;
+ }
+
+
+ .media-object {
+  height: 175px;
+  width: 175px;
+ }
+
+ img.rs-heading-logo {
+  height: 250px;
+  width: 250px;
+ }
+
+ img.media-object-info {
+  height: 350px;
+  width: 400px;
+ }
+
+
+
+ #Osbourneimg,
+ #tonyimg,
+ #geezerImg,
+ #wardImg {
+  height: 175px;
+  width: 175px;
+ }
+
+}
+
+@media (max-width: 769px) {
+ .header-pic {
+  height: 30vh;
+ }
+
+ .footer-pic {
+  height: 25vh;
+ }
+
+ .media-object {
+  height: 125px;
+  width: 125px;
+ }
+
+
+ div.page-header {
+  margin-top: 0px;
+ }
+
+
+ #Osbourneimg,
+ #tonyimg,
+ #geezerImg,
+ #wardImg {
+  height: 200px;
+  width: 200px;
+ }
+
+}
+
+@media (max-width: 425px) {
+ .header-pic {
+  height: 22.5vh;
+ }
+
+ .footer-pic {
+  height: 17.5vh;
+ }
+
+ .band-paragraph {
+  text-align: center;
+ }
+
+ .media-object {
+  height: 75px;
+  width: 75px;
+ }
+
+ .booking-pic {
+  height: 250px;
+ }
+
+ img.rs-heading-logo {
+  height: 175px;
+  width: 175px;
+ }
+
+ img.media-object-info {
+  height: 250px;
+  width: 300px;
+ }
+
+ .media-text-fix {
+  text-align: center;
+  height: 320px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 60px;
+ }
+
+ div.page-header {
+  margin-top: 20px;
+ }
+
+ .album-headings {
+  margin-top: 0;
+ }
+
+
+
+ #Osbourneimg,
+ #tonyimg,
+ #geezerImg,
+ #wardImg {
+  height: 200px;
+  width: 200px;
+ }
+
+ .modal-info,
+ .modal-two,
+ .modal-three,
+ .modal-four {
+  max-width: 350px;
+  height: 350px;
+  margin-top: 30px;
+  border-radius: 12px;
+ }
+}
+
+/*----------------Media Queries Band Section-------------------*/
+
+@media (max-width: 425px) {
+ img#Osbourneimg,
+ img#tonyimg,
+ img#geezerImg,
+ img#wardImg {
+  margin: auto;
+ }
+
+ .band {
+  display: block;
+  padding-bottom: 0;
+ }
+
+ .media-body.summary {
+  text-align: center;
+ }
+
+ blockquote.bio.hide-mobile {
+  border-left: none;
+ }
+}
+
+/*news page*/
+
+.thumbnail {
+ padding: 0 0 15px 0;
+ border: none;
+ border-radius: 0;
+}
+
+.thumbnail p {
+ margin-top: 15px;
+ color: #555;
+}
+
+/*all btns*/
+
+.btn {
+ padding: 5px 2px;
+ padding-top: 5px;
+ padding-right: 2px;
+ padding-bottom: 5px;
+ padding-left: 2px;
+ background-color: #f5652b;
+ color: #fffcfc;
+ border-radius: 12px;
+ transition: .2s;
+}
+
+.btn:hover,
+.btn:focus {
+ border: 1px solid #333;
+ background-color: #fff;
+ color: #000;
+}
+
+.modal-header,
+.close {
+ background-color: #333;
+ color: #fff !important;
+ text-align: center;
+ font-size: 30px;
+}
+
+.modal-header,
+.modal-body {
+ padding: 40px 50px;
+}
+
+.nav-tabs li a {
+ color: #777;
+}
+
+.list-group-item {
+ position: relative;
+ display: block;
+ padding: 10px 15px;
+ margin-bottom: -1px;
+ background-color: #777777;
+ border: 1px solid #1b1b1b;
+ color: #fffbfb;
+}
+
+.thumbnail p {
+ margin-top: 15px;
+ color: #f5f8fa;
+}
+
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img,
+.img-responsive,
+.thumbnail a>img,
+.thumbnail>img {
+ display: inline-block;
+ width: 250px;
+ height: 250px;
+}
+
+
+#btnbtn-defaultbtn-sm {
+ padding: 3px;
+ background-color: #f5652b;
+ color: #f1f1f1;
+ border-radius: 10px;
+ transition: .2s;
+
+}
