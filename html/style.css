@@ -137,6 +137,7 @@
 
 body {
  text-align: center;
+ font-family: 'Roboto', sans-serif;
  color: #fafafa;
  height: 100%;
  background: url('./images/black-sabbath-collage.jpg') no-repeat center center fixed;
@@ -147,21 +148,21 @@ body {
 
 /* index*/
 
-.transbox {
- margin: 30px;
- background-color: #303030;
- border: 1px solid black;
- opacity: 0.8;
-
+.transboxhome {
+ margin: 10px;
+ background-color: #1f1f1f;
+ border: 0px;
+ opacity: .8;
+ border-radius: 22px;
 }
 
-.transbox h1 {
+.transboxhome h1 {
  font-weight: bold;
  color: #FFFFFF;
  text-align: center;
 }
 
-.transbox p {
+.transboxhome p {
  margin: 5%;
  font-weight: bold;
  color: #FFFFFF;
@@ -265,8 +266,29 @@ ul {
  height: 400px;
 }
 
+h2 {
+ margin-top: 30px;
 
+}
 
+.transbox {
+ margin: 10px;
+ background-color: #1f1f1f;
+ border: 0px;
+ opacity: .8;
+ border-left: 5px solid #eee;
+ border-radius: 22px;
+}
+
+blockquote {
+ /* padding: 5px; */
+ /* margin: 0 0 20px; */
+ /* font-size: 17.5px; */
+ /* border-left: 5px solid #eee; */
+ /* border-radius: 22px; */
+ /* text-decoration: none; */
+ border-left: none;
+}
 
 /* Style the Image Used to Trigger the Modal */
 
@@ -406,7 +428,15 @@ ul {
  cursor: pointer;
 }
 
+/* news page */
 
+.transboxbooking {
+ margin: 40px;
+ background-color: #1f1f1f;
+ border: 0px;
+ opacity: .8;
+ border-radius: 22px;
+}
 
 /* footer */
 

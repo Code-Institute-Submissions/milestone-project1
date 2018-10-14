@@ -1,5 +1,5 @@
 <!DOCTYPE html!>
-<html lang="en-us">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -13,7 +13,6 @@
 </head>
 
 <body>
-  
   <!---navbar--->
 
   <div class="container col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -37,11 +36,10 @@
             <li><a href="news.html" class="hvr-grow"><i class="fa fa-newspaper-o visible-xs"></i>&nbsp;News</a></li>
             <li class="visible-xs" data-toggle="modal" data-target="#signUpModal"><a href="#" class="hvr-grow"><i class="fa fa-user-plus visible-xs"></i>&nbsp;Sign Up</a></li>
           </ul>
-          </ul>
           <!--Message-->
           <div class="navbar-header navbar-right hidden-xs">
             <a href="/Login" class="btn btn-default navbar-btn hvr-grow" data-toggle="modal" data-target="#signUpModal">Sign Up</a>
-            <p class="navbar-text hidden-md hidden-sm"><i>Sign up for monthly updates & touring info!</i></p>
+            <p class="navbar-text hidden-md hidden-sm"><i>Sign up for monthly updates &amp; touring info!</i></p>
           </div>
         </div>
       </div>
@@ -49,90 +47,93 @@
     <!----start of back to top function--->
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <!---end of back to the top button--->
-    <!---Header--->
-    <div class="col-sm-4 sidenav hidden-xs">
-      <div class="well">
-        <p><a class="twitter-timeline" href="https://twitter.com/BlackSabbath?ref_src=twsrc%5Etfw" data-width="300" data-height="300" data-tweet-limit="1" data-chrome="nofooter noborders transparent">Tweets by BlackSabbath</a>
-          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </p>
-      </div>
-    </div>
-  </div>
-  
-  <!-----section tour info and sales--->
-<div id="tour" class="bg-1">
-  <div class="container">
-    <h3 class="text-center">TOUR DATES</h3>
-    <p class="text-center">Below is our current schedule!<br> Remember to book your tickets!</p>
-    <ul class="list-group">
-      <li class="list-group-item">October <span class="label label-danger">Sold Out!</span></li>
-      <li class="list-group-item">November <span class="label label-danger">Sold Out!</span></li> 
-      <li class="list-group-item">December! <span class="label label-danger">3 dates remaining</span></li> 
-    </ul>
-    
-    <div class="row text-center">
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="" alt="Dublin" width="400" height="300">
-          <p><strong>Dublin</strong></p>
-          <p>Friday 27 December 2018</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="" alt="Belfast" width="400" height="300">
-          <p><strong>Belfast</strong></p>
-          <p>Saturday 28 December 2018</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="" alt="London" width="400" height="300">
-          <p><strong>London</strong></p>
-          <p>Sunday 29 December 2018</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">×</button>
-          <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
-        </div>
-        <div class="modal-body">
-          <form role="form">
-            <div class="form-group">
-              <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, €60.00 per person</label>
-              <input type="number" class="form-control" id="psw" placeholder="How many?">
+    <!--Start of header-->
+    <header>
+
+    </header>
+    <!-----section tour info and sales--->
+    <section>
+      <div id="tour" class="bg-1">
+        <div class="container">
+          <div class="transboxbooking">
+            <h1 class="text-center">Tour Dates</h1>
+            <p class="text-center">Below is our current schedule!<br> Remember to book your tickets!</p>
+            <ul class="list-group">
+              <li class="list-group-item">October <span class="label label-danger">Sold Out!</span></li>
+              <li class="list-group-item">November <span class="label label-danger">Sold Out!</span></li>
+              <li class="list-group-item">December! <span class="label label-danger">3 dates remaining</span></li>
+            </ul>
+          </div>
+          <div class="row text-center">
+            <div class="col-sm-4">
+              <div class="thumbnail">
+                <img src="images/dublin.jpg" alt="Dublin" width="400" height="300">
+                <div class="transboxbooking">
+                  <p><strong>Dublin</strong></p>
+                  <p>Friday 27 December 2018</p>
+                  <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+                </div>
+              </div>
             </div>
-            <div class="form-group">
-              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
-              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            <div class="col-sm-4">
+              <div class="thumbnail">
+                <img src="images/belfast.jpg" alt="Belfast" width="400" height="300">
+                <div class="transboxbooking">
+                  <p><strong>Belfast</strong></p>
+                  <p>Saturday 28 December 2018</p>
+                  <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+                </div>
+              </div>
             </div>
+            <div class="col-sm-4">
+              <div class="thumbnail">
+                <img src="images/London.jpg" alt="London" width="400" height="300">
+                <div class="transboxbooking">
+                  <p><strong>London</strong></p>
+                  <p>Sunday 29 December 2018</p>
+                  <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">×</button>
+            <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
+          </div>
+          <div class="modal-body">
+            <form role="form">
+              <div class="form-group">
+                <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, €60.00 per person</label>
+                <input type="number" class="form-control" id="psw" placeholder="How many?">
+              </div>
+              <div class="form-group">
+                <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
+                <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+              </div>
               <button type="submit" class="btn btn-block">Pay 
                 <span class="glyphicon glyphicon-ok"></span>
               </button>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
             <span class="glyphicon glyphicon-remove"></span> Cancel
           </button>
-          <p>Need <a href="#">help?</a></p>
+            <p>Need <a href="#">help?</a></p>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
   <!-- Sign up Modal -->
   <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
@@ -361,29 +362,29 @@
       </div>
     </div>
   </footer>
-  </div>
+
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script type="text/javascript" src="script.js"></script>
   <script>
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function() { scrollFunction() };
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() { scrollFunction() };
 
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          document.getElementById("myBtn").style.display = "block";
-        }
-        else {
-          document.getElementById("myBtn").style.display = "none";
-        }
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
       }
+      else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    }
 
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-    </script>
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
 </body>
 
 </html>
