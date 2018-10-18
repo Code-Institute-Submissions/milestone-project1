@@ -496,7 +496,7 @@ body {
   border-radius: 90px 0 0 90px;
   -moz-border-radius: 90px 0 0 90px;
   -webkit-border-radius: 90px 0 0 90px;
-  display: inline-block;
+  float: right;
   position: relative;
  
  }
@@ -507,8 +507,8 @@ body {
   border-radius: 0 90px 90px 0;
   -moz-border-radius: 0 90px 90px 0;
   -webkit-border-radius: 0 90px 90px 0;
-  display: inline-block;
   position: relative;
+  float: left;
   
  }
 }
@@ -520,7 +520,7 @@ body {
    border-radius: 90px 0 0 90px;
    -moz-border-radius: 90px 0 0 90px;
    -webkit-border-radius: 90px 0 0 90px;
-   display: inline-block;
+   float: right;
    position: relative;
    
   }
@@ -532,7 +532,7 @@ body {
    border-radius: 0 90px 90px 0;
    -moz-border-radius: 0 90px 90px 0;
    -webkit-border-radius: 0 90px 90px 0;
-   display: inline-block;
+   float: left;
    position: relative;
   
   }

@@ -33,7 +33,7 @@
           <li><a href="band.html" class="hvr-grow"><i class="fa fa-users visible-xs"></i>&nbsp;Band</a></li>
           <li><a href="videos.html" class="hvr-grow"><i class="fa fa-film visible-xs"></i>&nbsp;Videos</a></li>
           <li><a href="albums.html" class="hvr-grow"><i class="fa fa-music visible-xs"></i>&nbsp;Albums</a></li>
-          <li><a href="news.html" class="hvr-grow"><i class="fa fa-newspaper-o visible-xs"></i>&nbsp;News</a></li>
+          <li><a href="tour.html" class="hvr-grow"><i class="fa fa-newspaper-o visible-xs"></i>&nbsp;Tour</a></li>
           <li class="visible-xs" data-toggle="modal" data-target="#signUpModal"><a href="#" class="hvr-grow"><i class="fa fa-user-plus visible-xs"></i>&nbsp;Sign Up</a></li>
         </ul>
         </ul>
@@ -56,151 +56,140 @@
       <div class="container-fluid">
         <header class="header-logo">
           <img src="images/bandimage.jpg" alt="black sabbath band" class="img-rounded" />
+          <hr>
       </div>
       </header>
     </div>
     <!--End of Header-->
     <!--Start of Section-->
-
-   <div class="container">
-  <div class="row">
-    <div class="col-xs-12 text-center">
-      <h1>Bootstrap 3 Youtube Carousel</h1>
-      <p>Replace the IDs of the carousel items with the IDs of the youtube videos you want to display</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-8 col-sm-offset-2">
-      <div id="Blacksabbath" class="carousel slide youtube-carousel"  data-ride="carousel" data-interval="false">
-        <div class="carousel-inner">
-          <div class="video-container item active">
-            <div class="youtube-video" id='LQUXuQ6Zd9w'></div>
-            <div class="carousel-caption">War Pigs, video production</div>
-          </div>
-          <div class="video-container item">
-            <div class="youtube-video" id='x6LXp9uWQUk'></div>
-            <div class="carousel-caption">Iron Man & Paranoid, Rock Hall of Fame feat. Metallica</div>
-          </div>
-          <div class="video-container item ">
-            <div class="youtube-video" id='Zxjz6VhUOr8'></div>
-            <div class="carousel-caption">N.I.B live</div>
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-sm-offset-2 col-sm-8">
+            <div class="transboxhome">
+              <h1 class="text-center">Sit back, relax and enjoy some tunes!</h1>
+              <p class="music-intro">
+                As you can see, here we have a selection of popular songs of ours from over the years.Some of these are from our early years and some from more recent! If you love what you see, then please click <button type="button" class="btn btn-default btn-sm"
+                  data-toggle="modal" data-target="#submithere">here</button> to book the band for your entertainment needs!</p>
+            </div>
           </div>
         </div>
-        <div class="controls">
-          <a class="left carousel-control" href="#Blacksabbath" data-slide="prev">
-            <div class="left-button">
-              <div class="glyphicon glyphicon-chevron-left"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+          <div id="Blacksabbath" class="carousel slide youtube-carousel" data-ride="carousel" data-interval="false">
+            <div class="carousel-inner">
+              <div class="video-container item active">
+                <div class="youtube-video" id='LQUXuQ6Zd9w'></div>
+                <div class="carousel-caption">War Pigs, video production</div>
+              </div>
+              <div class="video-container item">
+                <div class="youtube-video" id='x6LXp9uWQUk'></div>
+                <div class="carousel-caption">Iron Man & Paranoid, Rock Hall of Fame feat. Metallica</div>
+              </div>
+              <div class="video-container item ">
+                <div class="youtube-video" id='Zxjz6VhUOr8'></div>
+                <div class="carousel-caption">N.I.B live</div>
+              </div>
             </div>
-          </a>
-          <a class="right carousel-control" href="#Blacksabbath" data-slide="next">        
-            <div class="right-button">
-              <div class="glyphicon glyphicon-chevron-right"></div>
+            <div class="controls">
+              <a class="left carousel-control" href="#Blacksabbath" data-slide="prev">
+                <div class="left-button">
+                  <div class="glyphicon glyphicon-chevron-left"></div>
+                </div>
+              </a>
+              <a class="right carousel-control" href="#Blacksabbath" data-slide="next">
+                <div class="right-button">
+                  <div class="glyphicon glyphicon-chevron-right"></div>
+                  <hr>
+                </div>
+              </a>
             </div>
-          </a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+  </section>
+  <!--End of music videos-->
+  
+
+  <!--footer-->
+  <footer class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h5 class="upper case general-sub">Our social media</h5>
+        <ul class="list-inline social-links">
+          <li><a target="_blank" href="https://www.facebook.com/BlackSabbath/"><i class="fa fa-facebook"></i></a></li>
+          <li><a target="_blank" href="https://twitter.com/blacksabbath?lang=en"><i class="fa fa-twitter"></i></a></li>
+          <li><a target="_blank" href="https://www.instagram.com/blacksabbath/?hl=en"><i class="fa fa-instagram"></i></a></li>
+          <li><a target="_blank" href="https://www.youtube.com/channel/UCrx-X329UKv0Y06VhfpFVvw"><i class="fa fa-youtube"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+  </div>
+  <!--/footer-->
+  <!--booking  Modal-->
+  <div class="modal fade" id="submithere" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="submit">Book the band!</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="firstname">First Name</label>
+              <input type="text" class="form-control" id="firstname" placeholder="First Name" required>
+            </div>
+            <div class="form-group">
+              <label for="lastname">Last Name</label>
+              <input type="text" class="form-control" id="lastname" placeholder="Last Name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="emailplease@gmail.com" required>
+              <p class="help-block">We'll never share your email address with anyone</p>
+            </div>
+            <div class="form-group">
+              <label for="number">Contact number</label>
+              <input type="number" class="form-control" id="number" placeholder="Contact number" required>
+              <p class="help-block">We'll never share your email address with any third-party company. </p>
+            </div>
+            <button type="submit" class="btn btn-success">Sign Up!</button>
+          </form>
         </div>
       </div>
     </div>
   </div>
-</div>
-    <div class="container-fluid">
-      <!--Videos-->
-      <section class="videos">
-        <div class="col-xs-12">
-          <div class="page-header">
-            <h1 class="text-center">Sit back, relax and enjoy some tunes!</h1>
-          </div>
+  <!--/booking modal-->
+  <!--Sign up Modal-->
+  <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Sign Up For Monthly Updates & New Music Releases!</h4>
         </div>
-        <div class="row">
-          <div class="music-intro-column">
-            <div class="col-xs-12">
-              <div class="col-xs-12 col-sm-offset-2 col-sm-8">
-                <p class="music-intro">
-                  As you can see, here we have a selection of popular songs of ours from over the years.<br> Some of these are from our early years and some from more recent!
-                </p>
-                <p>If you love what you see, then please click <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#submithere">here</button> to book the band for your entertainment needs!</p>
-              </div>
+        <div class="modal-body">
+          <!--Form Start-->
+          <form>
+            <div class="form-group">
+              <label for="fullname">Name</label>
+              <input type="text" class="form-control" id="fullname" placeholder="Full Name" required>
             </div>
-          </div>
-        </div>
-           
-      </section>
-      <!--End of music videos-->
-      <hr>
-      <!--footer-->
-      <footer class="container-fluid">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h5 class="upper case general-sub">Our social media</h5>
-            <ul class="list-inline social-links">
-              <li><a target="_blank" href="https://www.facebook.com/BlackSabbath/"><i class="fa fa-facebook"></i></a></li>
-              <li><a target="_blank" href="https://twitter.com/blacksabbath?lang=en"><i class="fa fa-twitter"></i></a></li>
-              <li><a target="_blank" href="https://www.instagram.com/blacksabbath/?hl=en"><i class="fa fa-instagram"></i></a></li>
-              <li><a target="_blank" href="https://www.youtube.com/channel/UCrx-X329UKv0Y06VhfpFVvw"><i class="fa fa-youtube"></i></a></li>
-            </ul>
-          </div>
-        </div>
-
-      </footer>
-    </div>
-    <!--/footer-->
-    <!--booking  Modal-->
-    <div class="modal fade" id="submithere" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="submit">Book the band!</h4>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="form-group">
-                <label for="firstname">First Name</label>
-                <input type="text" class="form-control" id="firstname" placeholder="First Name" required>
-              </div>
-              <div class="form-group">
-                <label for="lastname">Last Name</label>
-                <input type="text" class="form-control" id="lastname" placeholder="Last Name" required>
-              </div>
-              <div class="form-group">
-                <label for="email">Email address</label>
-                <input type="email" class="form-control" id="email" placeholder="emailplease@gmail.com" required>
-                <p class="help-block">We'll never share your email address with anyone</p>
-              </div>
-              <div class="form-group">
-                <label for="number">Contact number</label>
-                <input type="number" class="form-control" id="number" placeholder="Contact number" required>
-                <p class="help-block">We'll never share your email address with any third-party company. </p>
-              </div>
-              <button type="submit" class="btn btn-success">Sign Up!</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--/booking modal-->
-    <!--Sign up Modal-->
-    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Sign Up For Monthly Updates & New Music Releases!</h4>
-          </div>
-          <div class="modal-body">
-            <!--Form Start-->
-            <form>
-              <div class="form-group">
-                <label for="fullname">Name</label>
-                <input type="text" class="form-control" id="fullname" placeholder="Full Name" required>
-              </div>
-              <div class="form-group">
-                <label for="email">Email Address</label>
-                <input type="email" class="form-control" id="email2" placeholder="emailemail@example.com" required>
-                <p class="help-block">We'll never share your email address with any third-party company. </p>
-              </div>
-              <div class="form-group">
-                <label for="date">Date of Birth</label> <br>
-                <select name="day" id="date" required>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" class="form-control" id="email2" placeholder="emailemail@example.com" required>
+              <p class="help-block">We'll never share your email address with any third-party company. </p>
+            </div>
+            <div class="form-group">
+              <label for="date">Date of Birth</label> <br>
+              <select name="day" id="date" required>
         				<option value="">Day</option>
         				<option value="1">1</option>
         				<option value="2">2</option>
@@ -234,7 +223,7 @@
         				<option value="30">30</option>
         				<option value="31">31</option>
         			</select>
-                <select name="month" required> 
+              <select name="month" required> 
         				<option value="">Month</option>
         				<option value="January">January</option>
         				<option value="February">February</option>
@@ -249,7 +238,7 @@
         				<option value="November">November</option>
         				<option value="December">December</option>
         			</select>
-                <select name="year" required>
+              <select name="year" required>
         				<option value="">Year</option>
         				<option value="2018">2018</option>
         				<option value="2017">2017</option>
@@ -371,129 +360,128 @@
 						<option value="1901">1901</option>
 						<option value="1900">1900</option>
         		    </select>
-              </div>
-              <div class="form-group">
-                <label for="male">Gender</label> <br>
-                <label class="radio-inline">
+            </div>
+            <div class="form-group">
+              <label for="male">Gender</label> <br>
+              <label class="radio-inline">
                     <input type="radio" name="gender" id="male" value="Male">Male</label>
-                <label for="female"></label>
-                <label class="radio-inline">
+              <label for="female"></label>
+              <label class="radio-inline">
                     <input type="radio" name="gender" id="female" value="Female">Female</label>
-              </div>
-              <div class="button-middle">
-                <button type="submit" class="btn btn-success">Register</button>
-              </div>
-            </form>
-            <!--Form End-->
+            </div>
+            <div class="button-middle">
+              <button type="submit" class="btn btn-success">Register</button>
+            </div>
+          </form>
+          <!--Form End-->
 
-          </div>
-          <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-          <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-          <script type="text/javascript" src="script.js"></script>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
 
 
 
-          <script>
-            // When the user scrolls down 20px from the top of the document, show the button
-            window.onscroll = function() { scrollFunction() };
+        <script>
+          // When the user scrolls down 20px from the top of the document, show the button
+          window.onscroll = function() { scrollFunction() };
 
-            function scrollFunction() {
-              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("myBtn").style.display = "block";
-              }
-              else {
-                document.getElementById("myBtn").style.display = "none";
-              }
+          function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              document.getElementById("myBtn").style.display = "block";
             }
-
-            // When the user clicks on the button, scroll to the top of the document
-            function topFunction() {
-              document.body.scrollTop = 0;
-              document.documentElement.scrollTop = 0;
+            else {
+              document.getElementById("myBtn").style.display = "none";
             }
-            
-            //Start Youtube API
-var tag = document.createElement('script');
-tag.src = "https://www.youtube.com/iframe_api";
-var firstScriptTag = document.getElementsByTagName('script')[0];
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+          }
 
-var youtubeReady = false;
+          // When the user clicks on the button, scroll to the top of the document
+          function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          }
 
-//Variable for the dynamically created youtube players
-var players = new Array();
-var isPlaying = false;
+          //Start Youtube API
+          var tag = document.createElement('script');
+          tag.src = "https://www.youtube.com/iframe_api";
+          var firstScriptTag = document.getElementsByTagName('script')[0];
+          firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-function onYouTubeIframeAPIReady() {
-  //The id of the iframe and is the same as the videoId	
-  jQuery(".youtube-video").each(function(i, obj) {
-    players[obj.id] = new YT.Player(obj.id, {
-      videoId: obj.id,
-      playerVars: {
-        controls: 2,
-        rel: 0,
-        autohide: 1,
-        showinfo: 0,
-        modestbranding: 1,
-        wmode: "transparent",
-        html5: 1
-      },
-      events: {
-        'onStateChange': onPlayerStateChange
-      }
-    });
-  });
-  youtubeReady = true;
-}
+          var youtubeReady = false;
+
+          //Variable for the dynamically created youtube players
+          var players = new Array();
+          var isPlaying = false;
+
+          function onYouTubeIframeAPIReady() {
+            //The id of the iframe and is the same as the videoId	
+            jQuery(".youtube-video").each(function(i, obj) {
+              players[obj.id] = new YT.Player(obj.id, {
+                videoId: obj.id,
+                playerVars: {
+                  controls: 2,
+                  rel: 0,
+                  autohide: 1,
+                  showinfo: 0,
+                  modestbranding: 1,
+                  wmode: "transparent",
+                  html5: 1
+                },
+                events: {
+                  'onStateChange': onPlayerStateChange
+                }
+              });
+            });
+            youtubeReady = true;
+          }
 
 
-function onPlayerStateChange(event) {
-  var target_control = jQuery(event.target.getIframe()).parent().parent().parent().find(".controls");
+          function onPlayerStateChange(event) {
+            var target_control = jQuery(event.target.getIframe()).parent().parent().parent().find(".controls");
 
-  var target_caption = jQuery(event.target.getIframe()).parent().find(".carousel-caption");
-  switch (event.data) {
-    case -1:
-      jQuery(target_control).fadeIn(500);
-      jQuery(target_control).children().unbind('click');
-      break
-    case 0:
-      jQuery(target_control).fadeIn(500);
-      jQuery(target_control).children().unbind('click');
-      break;
-    case 1:
-      jQuery(target_control).children().click(function() { return false; });
-      jQuery(target_caption).fadeOut(500);
-      jQuery(target_control).fadeOut(500);
-      break;
-    case 2:
-      jQuery(target_control).fadeIn(500);
-      jQuery(target_control).children().unbind('click');
-      break;
-    case 3:
-      jQuery(target_control).children().click(function() { return false; });
-      jQuery(target_caption).fadeOut(500);
-      jQuery(target_control).fadeOut(500);
-      break;
-    case 5:
-      jQuery(target_control).children().click(function() { return false; });
-      jQuery(target_caption).fadeOut(500);
-      jQuery(target_control).fadeOut(500);
-      break;
-    default:
-      break;
-  }
-};
+            var target_caption = jQuery(event.target.getIframe()).parent().find(".carousel-caption");
+            switch (event.data) {
+              case -1:
+                jQuery(target_control).fadeIn(500);
+                jQuery(target_control).children().unbind('click');
+                break
+              case 0:
+                jQuery(target_control).fadeIn(500);
+                jQuery(target_control).children().unbind('click');
+                break;
+              case 1:
+                jQuery(target_control).children().click(function() { return false; });
+                jQuery(target_caption).fadeOut(500);
+                jQuery(target_control).fadeOut(500);
+                break;
+              case 2:
+                jQuery(target_control).fadeIn(500);
+                jQuery(target_control).children().unbind('click');
+                break;
+              case 3:
+                jQuery(target_control).children().click(function() { return false; });
+                jQuery(target_caption).fadeOut(500);
+                jQuery(target_control).fadeOut(500);
+                break;
+              case 5:
+                jQuery(target_control).children().click(function() { return false; });
+                jQuery(target_caption).fadeOut(500);
+                jQuery(target_control).fadeOut(500);
+                break;
+              default:
+                break;
+            }
+          };
 
-jQuery(window).bind('load', function() {
-  jQuery(".carousel-caption").fadeIn(500);
-  jQuery(".controls").fadeIn(500);
-});
+          jQuery(window).bind('load', function() {
+            jQuery(".carousel-caption").fadeIn(500);
+            jQuery(".controls").fadeIn(500);
+          });
 
-jQuery('.carousel').bind('slid.bs.carousel', function(event) {
-  jQuery(".controls").fadeIn(500);
-});
-
-          </script>
+          jQuery('.carousel').bind('slid.bs.carousel', function(event) {
+            jQuery(".controls").fadeIn(500);
+          });
+        </script>
 
 </body>
 

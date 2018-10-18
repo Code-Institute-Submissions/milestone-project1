@@ -1,6 +1,5 @@
 # Black Sabbath
 
-![alt text](https://github.com/colmcallan/milestone-project1/blob/master/html/images/bandlive.jpg "Header Picture on the Homepage")
 
 >I built this website to showcase the talents of one of the greatest metal/rock bands of all time, Black Sabbath.It displays many different albums, has a sign up page for updates on the band, a bookings page for users to book the band for special occasions and also has a little taster of some their songs so you can listen to them on top of that, there is also a future touring page to book them in one of their bigger venues. I have designed this website in such a way that is user friendly and easy on the eye but also a little bit different as you can see with the choice of background, I felt this makes it stand out better than any other band page.
 
@@ -9,14 +8,14 @@
 The purpose of this project is to create a static **(front-end only)** website for a 1960’s rock band who have around 50 years experience of performing live at numerous events around the world. The target audiences for this website are fans of Black Sabbath and potential fans who would like to use the site to see and hear clips from their back catalog, and any new material as it becomes available.
 
 **In order for the target audience to achieve these things when visiting my website, I incorporated the following:**
-- Audio clips for visitors to listen to some of the bands songs
-- Video files so the visitors can view the band performing
+- Audio clips for visitors to listen to some of the bands songs; Spotify was the source for these snippets. 
+- Video files so the visitors can view the band performing. Taken from the bands youtube page.
 - A sign up page for the user to register to receive information on new music releases, tours, ticket releases etc.
 - Information about the band and it's members, to give the user an overview of their lives
 - A news page so users can book the band for various upcoming events 
 - Social media links for users to follow to stay up to date with any news the band may have
 
->I have matched the design of the webpage to suit the bands image and brand presence and also included logos and pictures throughout, to give a good overall user experience.
+>I have designed the webpage to suit the bands image and brand presence and also included a logo and pictures throughout, to give a good overall user experience.
 
  ### Wireframe Mockups
  
@@ -43,6 +42,9 @@ The purpose of this project is to create a static **(front-end only)** website f
 
 ### [Albums Page](https://github.com/colmcallan/milestone-project1/blob/master/html/albums.html)
 - This is where the user can see all albums of the original band members and each album artwork is linked directly to purchase the album on itunes.
+- 
+### [Tour Page]()
+- This is where fans and potential new fans can book the band during their upcoming tour and view sold out dates and available dates to book in the location. 
 
 ### All Pages
 - Back to Top Button - this allows a user to navigate straight back to the top of the page if they would like to visit another section. It comes in extremely useful on a long section on a mobile device and saves accidental clicking on items on webpages and ease of use.
@@ -65,7 +67,10 @@ I have thoroughly tested this website and worked out any small design bugs that 
 - Samsung Galaxy S8 – Android 8.0
 -	Samsung Galaxy S7 - Android 8.0
 - Samsung Galaxy S6 – Android  7.0
--	iPhone 8 – iOS 12.4
+- Samsung Galaxy Note 9 - Android 9.0
+- Samsung Galaxy S9 - Android 9.0
+-	iPhone 8 – iOS 12.0
+-	iPhone 7+ - iOS 12.0
 -	HP Laptop 15-bs0xx – Windows 10
 -	iPad Air 2 – iOS 12
 -	macbook pro 13"- macOS Mojave
@@ -77,9 +82,7 @@ I have thoroughly tested this website and worked out any small design bugs that 
 -	Safari
 
 ### Issues/Bugs
-I had a major issue with a fixed background on iOS devices. I had images set up on my home page that were fixed when I scroll up and down and they looked good on every device except for iOS. It was like the image was zoomed in so far and stretched on both iPhones and iPads. I did a lot of research to try and fix this but to no avail. I found a couple of posts with suggestions for a fix, but it only worked for the whole background of the page and not just a section of the page.
-
-I also had an issue with text-shadow on Samsung Galaxy S6 devices. When a user clicked on a certain page e.g. Home; the Home text would display with a shadow effect like a spotlight was shining on the words. It looked well on iPhones and Samsung Galaxy S8 but was quite distorted on the Galaxy S6, which is why I removed it from mobile devices. It is still set up for tablets, laptops and desktops.
+I had no raised major issues with design and functionality during testing of my webpage.
 
 ### Validation
 All files passed validation testing at https://validator.w3.org/nu/#textarea
@@ -92,27 +95,26 @@ I was able to deploy the website here by going to my repository in which all the
 ## Credits
 
 ### Content
-The text for the section "Band" was taken from the Wikipedia article [The Rolling Stones](https://en.wikipedia.org/wiki/The_Rolling_Stones)
 
-The text for the section "Mick Jagger" was taken from the Wikipedia article [Mick Jagger](https://en.wikipedia.org/wiki/Mick_Jagger)
+The text for the section "Ozzy Osbourne" was taken from the Wikipedia article [Ozzy Osbourne](https://en.wikipedia.org/wiki/Ozzy_Osbourne)
 
-The text for the section "Keith Richards" was taken from the Wikipedia article [Keith Richards](https://en.wikipedia.org/wiki/Keith_Richards)
+The text for the section "Tony Iommi" was taken from the Wikipedia article [Tony Iommi](https://en.wikipedia.org/wiki/Tony_Iommi)
 
-The text for the section "Charlie Watts" was taken from the Wikipedia article [Charlie Watts](https://en.wikipedia.org/wiki/Charlie_Watts)
+The text for the section "Geezer Butler" was taken from the Wikipedia article [Geezer Butler](https://en.wikipedia.org/wiki/Geezer_Butler)
 
-The text for the section "Ronnie Wood" was taken from the Wikipedia article [Ronnie Wood](https://en.wikipedia.org/wiki/Ronnie_Wood)
+The text for the section "Bill Ward" was taken from the Wikipedia article [Bill Ward](https://en.wikipedia.org/wiki/Bill_Ward_(musician)
 
 ### Media Content
-The photos used on this site were obtained from various sources and the references can be found [here](https://github.com/jtuck15/milestone-project-1/blob/master/references.txt)
+The photos used on this site were obtained from various sources and the references can be found [here](https://github.com/colmcallan/milestone-project1/tree/master/html/images)
 
-The videos used on this site were taken from the [The Rolling Stones official Youtube channel](https://www.youtube.com/channel/UCB_Z6rBg3WW3NL4-QimhC2A)
+The videos used on this site were taken from the [Black Sabbaths youtube page](https://www.youtube.com/channel/UCrx-X329UKv0Y06VhfpFVvw)
 
 ### Acknowledgements
 - [Code Institute](https://www.codeinstitute.net/)
 - Rohan Hapani - His smooth scroll design using JQuery on [Codepen](https://codepen.io/desirecode/pen/MJPJqV/) really helped me with my back to top button as I felt without the use of JQuery, it didn't look too appealing when you click the button and it jumps straight back to the top.
 - Legendary - I took inspiration from this read more/read less button using JQuery on [Codepen](https://codepen.io/legendaryPower/pen/dvJQvB) as I felt that the sections on the band members page were very long on a mobile. This helped shorten the length and give the user the option to read more and also read less.
 - [W3schools.com](https://www.w3schools.com/howto/howto_css_modal_images.asp) - I used their modal description to add modal images to each of the band members pictures on the Band page.
+- [W3schools.com](https://www.w3schools.com/bootstrap/bootstrap_theme_band.asp) - I used their carousel and ticket booking modal for images in the band page and news page.
 - [Bootstrap](https://getbootstrap.com/docs/3.3/javascript/#carousel) - I used the carousel example on Bootstrap to set up my carousel of pictures on the Home page.
+- Rune Stenstroem - I took inspiration from this carousel feature to use in the videos section as the layout prior was very bulky looking and on a mobile device cause a lot of unnescerary scrolling for the user. [Codepen](https://codepen.io/RuneStenstroem/pen/vgBEZo)
 
-### References
-Further references can be found [here](https://github.com/jtuck15/milestone-project-1/blob/master/references.txt)
