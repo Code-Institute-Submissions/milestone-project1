@@ -16,36 +16,37 @@
 
 
   <!---navbar--->
-  <div class="container col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><img src="images/sabbath.png" alt="black sabbath" height="50" width="50"></a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="index.html" class="hvr-grow"><i class="fa fa-home visible-xs"></i>&nbsp;Home</a></li>
-            <li><a href="band.html" class="hvr-grow"><i class="fa fa-users visible-xs"></i>&nbsp;Band</a></li>
-            <li><a href="videos.html" class="hvr-grow"><i class="fa fa-film visible-xs"></i>&nbsp;Music</a></li>
-            <li><a href="albums.html" class="hvr-grow"><i class="fa fa-music visible-xs"></i>&nbsp;Albums</a></li>
-            <li><a href="news.html" class="hvr-grow"><i class="fa fa-newspaper-o visible-xs"></i>&nbsp;News</a></li>
-            <li class="visible-xs" data-toggle="modal" data-target="#signUpModal"><a href="#" class="hvr-grow"><i class="fa fa-user-plus visible-xs"></i>&nbsp;Sign Up</a></li>
-          </ul>
-          </ul>
-          <!--Message-->
-          <div class="navbar-header navbar-right hidden-xs">
-            <a href="/Login" class="btn btn-default navbar-btn hvr-grow" data-toggle="modal" data-target="#signUpModal">Sign Up</a>
-            <p class="navbar-text hidden-md hidden-sm"><i>Sign up for monthly updates & touring info!</i></p>
-          </div>
+        <a class="navbar-brand" href="index.html"><img src="images/sabbath.png" alt="black sabbath" height="50" width="50"></a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html" class="hvr-grow"><i class="fa fa-home visible-xs"></i>&nbsp;Home</a></li>
+          <li><a href="band.html" class="hvr-grow"><i class="fa fa-users visible-xs"></i>&nbsp;Band</a></li>
+          <li><a href="videos.html" class="hvr-grow"><i class="fa fa-film visible-xs"></i>&nbsp;Videos</a></li>
+          <li><a href="albums.html" class="hvr-grow"><i class="fa fa-music visible-xs"></i>&nbsp;Albums</a></li>
+          <li><a href="news.html" class="hvr-grow"><i class="fa fa-newspaper-o visible-xs"></i>&nbsp;News</a></li>
+          <li class="visible-xs" data-toggle="modal" data-target="#signUpModal"><a href="#" class="hvr-grow"><i class="fa fa-user-plus visible-xs"></i>&nbsp;Sign Up</a></li>
+        </ul>
+        </ul>
+        <!--Message-->
+        <div class="navbar-header navbar-right hidden-xs">
+          <a href="/Login" class="btn btn-default navbar-btn hvr-grow" data-toggle="modal" data-target="#signUpModal">Sign Up</a>
+          <p class="navbar-text hidden-md hidden-sm"><i>Sign up for monthly updates & touring info!</i></p>
         </div>
       </div>
-    </nav>
+    </div>
+  </nav>
+  <div class="container col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
     <!---/navbar--->
     <!----start of back to top function--->
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
@@ -61,6 +62,46 @@
     <!--End of Header-->
     <!--Start of Section-->
 
+   <div class="container">
+  <div class="row">
+    <div class="col-xs-12 text-center">
+      <h1>Bootstrap 3 Youtube Carousel</h1>
+      <p>Replace the IDs of the carousel items with the IDs of the youtube videos you want to display</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2">
+      <div id="Blacksabbath" class="carousel slide youtube-carousel"  data-ride="carousel" data-interval="false">
+        <div class="carousel-inner">
+          <div class="video-container item active">
+            <div class="youtube-video" id='LQUXuQ6Zd9w'></div>
+            <div class="carousel-caption">War Pigs, video production</div>
+          </div>
+          <div class="video-container item">
+            <div class="youtube-video" id='x6LXp9uWQUk'></div>
+            <div class="carousel-caption">Iron Man & Paranoid, Rock Hall of Fame feat. Metallica</div>
+          </div>
+          <div class="video-container item ">
+            <div class="youtube-video" id='Zxjz6VhUOr8'></div>
+            <div class="carousel-caption">N.I.B live</div>
+          </div>
+        </div>
+        <div class="controls">
+          <a class="left carousel-control" href="#Blacksabbath" data-slide="prev">
+            <div class="left-button">
+              <div class="glyphicon glyphicon-chevron-left"></div>
+            </div>
+          </a>
+          <a class="right carousel-control" href="#Blacksabbath" data-slide="next">        
+            <div class="right-button">
+              <div class="glyphicon glyphicon-chevron-right"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
     <div class="container-fluid">
       <!--Videos-->
       <section class="videos">
@@ -81,69 +122,7 @@
             </div>
           </div>
         </div>
-
-        <div class="row">
-          <div class="col-xs-12 col-sm-6">
-            <div class="video-wrapper">
-              <h4 class="text-center music-captions">Black Sabbath - War Pigs</h4>
-            </div>
-            <!-- 4:3 aspect ratio -->
-            <div class="embed-responsive embed-responsive-4by3">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/LQUXuQ6Zd9w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-6">
-            <div class="video-wrapper">
-              <h4 class="text-center music-captions">Black Sabbath - Paranoid</h4>
-            </div>
-            <!-- 4:3 aspect ratio -->
-            <div class="embed-responsive embed-responsive-4by3">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/hkXHsK4AQPs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-xs-12 col-sm-6">
-            <div class="video-wrapper">
-              <h4 class="text-center music-captions">Black Sabbath - Iron Man</h4>
-            </div>
-            <!-- 4:3 aspect ratio -->
-            <div class="embed-responsive embed-responsive-4by3">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/5s7_WbiR79E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-6">
-            <div class="video-wrapper">
-              <h4 class="text-center music-captions">Black Sabbath - Killing Yourself</h4>
-            </div>
-            <!-- 4:3 aspect ratio -->
-            <div class="embed-responsive embed-responsive-4by3">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/jCehccEZzX4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-xs-12 col-sm-6">
-            <div class="video-wrapper">
-              <h4 class="text-center music-captions"> Black Sabbath - Loner</h4>
-            </div>
-            <!-- 4:3 aspect ratio -->
-            <div class="embed-responsive embed-responsive-4by3">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/FqvThopYOLY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-6">
-            <div class="video-wrapper">
-              <h4 class="text-center music-captions">Black Sabbath - Children of the Grave</h4>
-            </div>
-            <!-- 4:3 aspect ratio -->
-            <div class="embed-responsive embed-responsive-4by3">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/zUT730G-xvA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
+           
       </section>
       <!--End of music videos-->
       <hr>
@@ -432,6 +411,88 @@
               document.body.scrollTop = 0;
               document.documentElement.scrollTop = 0;
             }
+            
+            //Start Youtube API
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+var youtubeReady = false;
+
+//Variable for the dynamically created youtube players
+var players = new Array();
+var isPlaying = false;
+
+function onYouTubeIframeAPIReady() {
+  //The id of the iframe and is the same as the videoId	
+  jQuery(".youtube-video").each(function(i, obj) {
+    players[obj.id] = new YT.Player(obj.id, {
+      videoId: obj.id,
+      playerVars: {
+        controls: 2,
+        rel: 0,
+        autohide: 1,
+        showinfo: 0,
+        modestbranding: 1,
+        wmode: "transparent",
+        html5: 1
+      },
+      events: {
+        'onStateChange': onPlayerStateChange
+      }
+    });
+  });
+  youtubeReady = true;
+}
+
+
+function onPlayerStateChange(event) {
+  var target_control = jQuery(event.target.getIframe()).parent().parent().parent().find(".controls");
+
+  var target_caption = jQuery(event.target.getIframe()).parent().find(".carousel-caption");
+  switch (event.data) {
+    case -1:
+      jQuery(target_control).fadeIn(500);
+      jQuery(target_control).children().unbind('click');
+      break
+    case 0:
+      jQuery(target_control).fadeIn(500);
+      jQuery(target_control).children().unbind('click');
+      break;
+    case 1:
+      jQuery(target_control).children().click(function() { return false; });
+      jQuery(target_caption).fadeOut(500);
+      jQuery(target_control).fadeOut(500);
+      break;
+    case 2:
+      jQuery(target_control).fadeIn(500);
+      jQuery(target_control).children().unbind('click');
+      break;
+    case 3:
+      jQuery(target_control).children().click(function() { return false; });
+      jQuery(target_caption).fadeOut(500);
+      jQuery(target_control).fadeOut(500);
+      break;
+    case 5:
+      jQuery(target_control).children().click(function() { return false; });
+      jQuery(target_caption).fadeOut(500);
+      jQuery(target_control).fadeOut(500);
+      break;
+    default:
+      break;
+  }
+};
+
+jQuery(window).bind('load', function() {
+  jQuery(".carousel-caption").fadeIn(500);
+  jQuery(".controls").fadeIn(500);
+});
+
+jQuery('.carousel').bind('slid.bs.carousel', function(event) {
+  jQuery(".controls").fadeIn(500);
+});
+
           </script>
 
 </body>

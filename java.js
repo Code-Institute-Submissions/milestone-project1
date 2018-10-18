@@ -1,5 +1,3 @@
-
-
 // Read More Button for Osbourne
 
 $(document).ready(function() {
@@ -42,6 +40,5 @@ $(document).ready(function() {
     $(".btn").html('<span class="glyphicon glyphicon-collapse-up"></span> Read Less');
   });
 });
-
 
 

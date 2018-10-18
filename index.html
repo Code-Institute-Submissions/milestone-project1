@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html!>
 <html lang="en">
 
 <head>
@@ -14,8 +14,7 @@
 
 <body>
     <!---navbar-->
-    <div class="container col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <nav class="navbar navbar-inverse">
+     <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -30,7 +29,7 @@
                     <ul class="nav navbar-nav">
                         <li><a href="index.html" class="hvr-grow"><i class="fa fa-home visible-xs"></i>&nbsp;Home</a></li>
                         <li><a href="band.html" class="hvr-grow"><i class="fa fa-users visible-xs"></i>&nbsp;Band</a></li>
-                        <li><a href="videos.html" class="hvr-grow"><i class="fa fa-film visible-xs"></i>&nbsp;Music</a></li>
+                        <li><a href="videos.html" class="hvr-grow"><i class="fa fa-film visible-xs"></i>&nbsp;Videos</a></li>
                         <li><a href="albums.html" class="hvr-grow"><i class="fa fa-music visible-xs"></i>&nbsp;Albums</a></li>
                         <li><a href="news.html" class="hvr-grow"><i class="fa fa-newspaper-o visible-xs"></i>&nbsp;News</a></li>
                         <li class="visible-xs" data-toggle="modal" data-target="#signUpModal"><a href="#" class="hvr-grow"><i class="fa fa-user-plus visible-xs"></i>&nbsp;Sign Up</a></li>
@@ -43,6 +42,8 @@
                 </div>
             </div>
         </nav>
+    <div class="container col-lg-12 col-md-12 col-sm-12 col-xs-12">
+       
         <!--/navbar-->
         <!--start of back to top function-->
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
@@ -54,11 +55,12 @@
                     <h1>Welcome</h1>
                     <p>Throughout this webpage you will have the opportunity to endulge yourself in the legacy that is, Black Sabbath. Please take time to look at some of Black Sabbath's highly rated singles, their full discography and upcoming tour dates
                         please click <button type="button" class="btn btn-default" data-toggle="modal" data-target="#submithere">here</button> to book the band for your entertainment needs!</p>
-                </div>
-            </div>
+                    <hr>
+                    <h2 id="tracks"> Please enjoy a quick snippet of some of our most popular tracks!</h2>
+                </div><br><br><br>
         </header>
         <section>
-            <h2 id="tracks"> Please enjoy a quick snippet of some of our most popular tracks!</h2><br><br><br>
+
             <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <!--paranoid snippet-->
                 <iframe src="https://open.spotify.com/embed/track/1jzDzZWeSDBg5fhNc3tczV" width="250" height="330" allow="encrypted-media"></iframe>
@@ -70,7 +72,7 @@
                 <iframe src="https://open.spotify.com/embed/track/3ZuVfQriS93y6ofwbIf7lp" width="250" height="330" allow="encrypted-media"></iframe>
             </div>
 
-            
+
         </section>
         <!--footer-->
         <footer class="container-fluid">
@@ -87,66 +89,66 @@
             </div>
 
         </footer>
-    </div>
-    <!--/footer-->
-    <!--booking  Modal-->
-    <div class="modal fade" id="submithere" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="submit">Book the band!</h4>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="firstname">First Name</label>
-                            <input type="text" class="form-control" id="firstname" placeholder="First Name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="lastname">Last Name</label>
-                            <input type="text" class="form-control" id="lastname" placeholder="Last Name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="emailplease@gmail.com" required>
-                            <p class="help-block">We'll never share your email address with anyone</p>
-                        </div>
-                        <div class="form-group">
-                            <label for="number">Contact number</label>
-                            <input type="number" class="form-control" id="number" placeholder="Contact number" required>
-                            <p class="help-block">We'll never share your email address with any third-party company. </p>
-                        </div>
-                        <button type="submit" class="btn btn-success">Sign Up!</button>
-                    </form>
+        </div>
+        <!--/footer-->
+        <!--booking  Modal-->
+        <div class="modal fade" id="submithere" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="submit">Book the band!</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="firstname">First Name</label>
+                                <input type="text" class="form-control" id="firstname" placeholder="First Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastname">Last Name</label>
+                                <input type="text" class="form-control" id="lastname" placeholder="Last Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="emailplease@gmail.com" required>
+                                <p class="help-block">We'll never share your email address with anyone</p>
+                            </div>
+                            <div class="form-group">
+                                <label for="number">Contact number</label>
+                                <input type="number" class="form-control" id="number" placeholder="Contact number" required>
+                                <p class="help-block">We'll never share your email address with any third-party company. </p>
+                            </div>
+                            <button type="submit" class="btn btn-success">Sign Up!</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!--/booking modal-->
-    <!--Sign up Modal-->
-    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Sign Up For Monthly Updates & New Music Releases!</h4>
-                </div>
-                <div class="modal-body">
-                    <!--Form Start-->
-                    <form>
-                        <div class="form-group">
-                            <label for="fullname">Name</label>
-                            <input type="text" class="form-control" id="fullname" placeholder="Full Name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email Address</label>
-                            <input type="email" class="form-control" id="email2" placeholder="emailemail@example.com" required>
-                            <p class="help-block">We'll never share your email address with any third-party company. </p>
-                        </div>
-                        <div class="form-group">
-                            <label for="date">Date of Birth</label> <br>
-                            <select name="day" id="date" required>
+        <!--/booking modal-->
+        <!--Sign up Modal-->
+        <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Sign Up For Monthly Updates & New Music Releases!</h4>
+                    </div>
+                    <div class="modal-body">
+                        <!--Form Start-->
+                        <form>
+                            <div class="form-group">
+                                <label for="fullname">Name</label>
+                                <input type="text" class="form-control" id="fullname" placeholder="Full Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" class="form-control" id="email2" placeholder="emailemail@example.com" required>
+                                <p class="help-block">We'll never share your email address with any third-party company. </p>
+                            </div>
+                            <div class="form-group">
+                                <label for="date">Date of Birth</label> <br>
+                                <select name="day" id="date" required>
         				<option value="">Day</option>
         				<option value="1">1</option>
         				<option value="2">2</option>
@@ -180,7 +182,7 @@
         				<option value="30">30</option>
         				<option value="31">31</option>
         			</select>
-                            <select name="month" required> 
+                                <select name="month" required> 
         				<option value="">Month</option>
         				<option value="January">January</option>
         				<option value="February">February</option>
@@ -195,7 +197,7 @@
         				<option value="November">November</option>
         				<option value="December">December</option>
         			</select>
-                            <select name="year" required>
+                                <select name="year" required>
         				<option value="">Year</option>
         				<option value="2018">2018</option>
         				<option value="2017">2017</option>
@@ -317,47 +319,47 @@
 						<option value="1901">1901</option>
 						<option value="1900">1900</option>
         		    </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="male">Gender</label> <br>
-                            <label class="radio-inline">
+                            </div>
+                            <div class="form-group">
+                                <label for="male">Gender</label> <br>
+                                <label class="radio-inline">
                     <input type="radio" name="gender" id="male" value="Male">Male</label>
-                            <label for="female"></label>
-                            <label class="radio-inline">
+                                <label for="female"></label>
+                                <label class="radio-inline">
                     <input type="radio" name="gender" id="female" value="Female">Female</label>
-                        </div>
-                        <div class="button-middle">
-                            <button type="submit" class="btn btn-success">Register</button>
-                        </div>
-                    </form>
-                    <!--Form End-->
+                            </div>
+                            <div class="button-middle">
+                                <button type="submit" class="btn btn-success">Register</button>
+                            </div>
+                        </form>
+                        <!--Form End-->
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
 
-    <script>
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() { scrollFunction() };
+        <script>
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() { scrollFunction() };
 
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("myBtn").style.display = "block";
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("myBtn").style.display = "block";
+                }
+                else {
+                    document.getElementById("myBtn").style.display = "none";
+                }
             }
-            else {
-                document.getElementById("myBtn").style.display = "none";
-            }
-        }
 
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
 </body>
 
 </html>
