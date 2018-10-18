@@ -12,7 +12,7 @@ The purpose of this project is to create a static **(front-end only)** website f
 - Video files so the visitors can view the band performing. Taken from the bands youtube page.
 - A sign up page for the user to register to receive information on new music releases, tours, ticket releases etc.
 - Information about the band and it's members, to give the user an overview of their lives
-- A news page so users can book the band for various upcoming events 
+- A tour page so users can book the band for various upcoming events 
 - Social media links for users to follow to stay up to date with any news the band may have
 
 >I have designed the webpage to suit the bands image and brand presence and also included a logo and pictures throughout, to give a good overall user experience.
@@ -88,12 +88,13 @@ I had no raised major issues with design and functionality during testing of my 
 All files passed validation testing at https://validator.w3.org/nu/#textarea
 
 ## Deployment
-My website is currently deployed on Github Pages - https://jtuck15.github.io/milestone-project-1/
+My website is currently deployed on Github Pages - https://colmcallan.github.io/milestone-project1/
 
 I was able to deploy the website here by going to my repository in which all the files are saved, clicking on settings at the top and scrolling down to the heading GitHub Pages. Underneath the heading there is a source and I chose master branch from the dropdown which allows you to host the website on GitHub Pages.
-
+I didn't use any github themes for this project.
+It was locally created using cloud9 and pushed into my github repository from there.
 ## Credits
-
+My friend Jimmy Tuck reviewed my site to ensure all the above was fluid and user friendly. 
 ### Content
 
 The text for the section "Ozzy Osbourne" was taken from the Wikipedia article [Ozzy Osbourne](https://en.wikipedia.org/wiki/Ozzy_Osbourne)
