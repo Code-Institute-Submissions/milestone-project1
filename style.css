@@ -391,17 +391,18 @@ blockquote {
  margin-right: auto;
  width: 50%;
 }
+
 .embed-responsive {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border-radius: 6px;
+ margin-top: 10px;
+ margin-bottom: 20px;
+ border-radius: 6px;
 }
 
 .video-wrapper {
-    margin-top: 10px;
-    font-weight:  bold;
-    color: #ffffff;
-    
+ margin-top: 10px;
+ font-weight: bold;
+ color: #ffffff;
+
 }
 
 
@@ -619,7 +620,7 @@ select {
 }
 
 
-/*----------------Media Queries-------------------*/
+/*----Media Queries---*/
 
 @media (min-width: 992px) {
  .text-fix {
@@ -632,10 +633,42 @@ select {
   height: 45vh;
  }
 
- .footer-pic {
-  height: 32.5vh;
+ /* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+  .container col-lg-12 col-md-12 col-sm-12 col-xs-12 {
+   text-align: center;
+  }
+} 
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media (min-width: 600px) {
+  .container, .col-lg-12, .col-md-12, .col-sm-12, .col-xs-12 {
+   text-align: center;
+  }
  }
 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media (min-width: 768px) {
+  .container, .col-lg-12, .col-md-12, .col-sm-12, .col-xs-12 {
+   text-align: center;
+  }
+ }
+
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+  .container, .col-lg-12, .col-md-12, .col-sm-12, .col-xs-12{
+  text-align: center;
+  width: 100%;
+ }
+ }
+
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media (max-width: 1300px) {
+.container, .col-lg-12 {
+    text-align: center;
+    width: 100%;
+}
+}
 
 
 
@@ -775,7 +808,7 @@ select {
  }
 }
 
-/*----------------Media Queries Band Section-------------------*/
+/*---Media Queries Band Section--*/
 
 @media (max-width: 425px) {
  img#Osbourneimg,
