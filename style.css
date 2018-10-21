@@ -534,13 +534,15 @@ ul {
 /* tour page */
 
 .transboxbookingtour {
- margin: 40px;
+ margin: 40px auto;
  border: 1px;
  border-style: solid;
  border-color: grey;
  background-color: rgba(0, 0, 0, 0.5);
  border-radius: 22px;
- width: 100%;
+ width: auto;
+ position: relative;
+ 
 }
 
 
@@ -610,7 +612,8 @@ ul {
   border-color: grey;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 22px;
-  width: 100%;
+  width: auto;
+ position: relative;
 
  }
 }
@@ -626,7 +629,8 @@ ul {
   border-color: grey;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 22px;
-  width: 100%;
+  width: auto;
+ position: relative;
  }
 
 }
@@ -641,7 +645,8 @@ ul {
   border-color: grey;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 22px;
-  width: 100%;
+  width: auto;
+ position: relative;
 
  }
 }
@@ -656,7 +661,8 @@ ul {
   border-color: grey;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 22px;
-  width: 100%;
+  width: auto;
+ position: relative;
 
  }
 }
@@ -682,7 +688,8 @@ ul {
   border-color: grey;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 22px;
-  width: 100%;
+  width: auto;
+ position: relative;
 
  }
 }
