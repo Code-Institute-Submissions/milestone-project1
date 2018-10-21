@@ -511,6 +511,74 @@ ul {
 
 }
 
+/* Extra small devices (phones, 600px and down) */
+
+@media (max-width: 600px) {
+ .thumbnail2 {
+  display: block;
+  margin: 0 auto;
+  padding: 0px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+  border: 1px;
+  border-style: solid;
+  border-color: grey;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 22px;
+  width: 300px;
+
+ }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media (min-width: 600px) {
+ .thumbnail2 {
+  display: block;
+  margin: 0 auto;
+  padding: 0px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+  border: 1px;
+  border-style: solid;
+  border-color: grey;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 22px;
+  width: 300px;
+
+ }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media (min-width: 768px) {
+ .thumbnail2 {
+  display: block;
+  margin: 0 auto;
+  padding: 0px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+  border: 1px;
+  border-style: solid;
+  border-color: grey;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 22px;
+  width: 300px;
+
+ }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
 @media (min-width: 992px) {
  .thumbnail2 {
   display: block;
@@ -529,9 +597,30 @@ ul {
   width: 300px;
 
  }
-
-
 }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+ .thumbnail2 {
+  display: block;
+  margin: 0 auto;
+  padding: 0px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+  border: 1px;
+  border-style: solid;
+  border-color: grey;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 22px;
+  width: 300px;
+
+ }
+}
+
 
 /* tour page */
 
@@ -547,6 +636,11 @@ ul {
 
 }
 
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img {
+ width: 1000px;
+ height: 550px;
+}
 
 .carousel-inner img {
  -webkit-filter: grayscale(90%);
@@ -563,7 +657,7 @@ ul {
 
 .thumbnail>img {
  border-style: solid;
- border-color: grey;
+ border-color: #515151;
  border-width: 2px;
  width: 350px;
  height: 300px;
@@ -617,9 +711,44 @@ ul {
   border-radius: 22px;
   width: auto;
   position: relative;
+ }
+ .thumbnail>img {
+  border-style: solid;
+  border-color: #515151;
+  width: 350px;
+  height: 300px;
+ }
+
+
+ .thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: transparent;
+  border: none;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+ }
+
+ .transboxbookingcity {
+  margin-top: 15px;
+  color: #ffffff;
+  border: 1px;
+  border-style: solid;
+  border-color: grey;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 22px;
+  text-align: center;
+  padding: 10px;
+  width: auto;
 
  }
+
+
 }
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
@@ -634,6 +763,41 @@ ul {
   border-radius: 22px;
   width: auto;
   position: relative;
+ }
+
+ .thumbnail>img {
+  border-style: solid;
+  border-color: #515151;
+  border-width: 2px;
+  width: 350px;
+  height: 300px;
+ }
+
+
+ .thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: transparent;
+  border: none;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+ }
+
+ .transboxbookingcity {
+  margin-top: 15px;
+  color: #ffffff;
+  border: 1px;
+  border-style: solid;
+  border-color: grey;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 22px;
+  text-align: center;
+  padding: 10px;
+  width: auto;
+
  }
 
 }
@@ -652,6 +816,41 @@ ul {
   position: relative;
 
  }
+ .thumbnail>img {
+  border-style: solid;
+  border-color: #515151;
+  border-width: 2px;
+  width: 350px;
+  height: 300px;
+ }
+
+
+ .thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: transparent;
+  border: none;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+ }
+
+ .transboxbookingcity {
+  margin-top: 15px;
+  color: #ffffff;
+  border: 1px;
+  border-style: solid;
+  border-color: grey;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 22px;
+  text-align: center;
+  padding: 10px;
+  width: auto;
+
+ }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -668,9 +867,43 @@ ul {
   position: relative;
 
  }
-}
+ .thumbnail>img {
+  border-style: solid;
+  border-color: #515151;
+  border-width: 2px;
+  width: 350px;
+  height: 300px;
+ }
+
+
+ .thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: transparent;
+  border: none;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+ }
+
+ .transboxbookingcity {
+  margin-top: 15px;
+  color: #ffffff;
+  border: 1px;
+  border-style: solid;
+  border-color: grey;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 22px;
+  text-align: center;
+  padding: 10px;
+  width: auto;
+
+ }
 
 }
+
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
@@ -695,13 +928,42 @@ ul {
   position: relative;
 
  }
+ .thumbnail>img {
+  border-style: solid;
+  border-color: #515151;
+  border-width: 2px;
+  width: 350px;
+  height: 300px;
+ }
+
+
+ .thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: transparent;
+  border: none;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+ }
+
+ .transboxbookingcity {
+  margin-top: 15px;
+  color: #ffffff;
+  border: 1px;
+  border-style: solid;
+  border-color: grey;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 22px;
+  text-align: center;
+  padding: 10px;
+  width: auto;
+
+ }
 }
 
-.carousel-inner>.item>a>img,
-.carousel-inner>.item>img {
- width: 1000px;
- height: 550px;
-}
 
 @media (max-width: 600px) {
  .carousel-caption {
@@ -1067,7 +1329,7 @@ select {
   width: 250px;
   height: 250px;
   border-style: solid;
-  border-color: red;
+  border-color: #515151;
  }
 
 
