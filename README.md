@@ -8,8 +8,9 @@
 The purpose of this project is to create a static **(front-end only)** website for a 1960’s rock band who have around 50 years experience of performing live at numerous events around the world. The target audiences for this website are fans of Black Sabbath and potential fans who would like to use the site to see and hear clips from their back catalog, and any new material as it becomes available.
 
 **In order for the target audience to achieve these things when visiting my website, I incorporated the following:**
-- Audio clips for visitors to listen to some of the bands songs; Spotify was the source for these snippets. 
+- Audio clips for visitors to listen to some of the bands songs; Spotify was the source for these snippets as it will prompt the user to either sign up to spotify to listen to more, or log in to their spotify to listen to the full song.
 - Video files so the visitors can view the band performing. Taken from the bands youtube page.
+- A discography page that links to user to the itunes purchase site for each album.
 - A sign up page for the user to register to receive information on new music releases, tours, ticket releases etc.
 - Information about the band and it's members, to give the user an overview of their lives
 - A tour page so users can book the band for various upcoming events 
@@ -36,15 +37,16 @@ The purpose of this project is to create a static **(front-end only)** website f
 - Read More - this feature allows the user to choose whether or not they want to read more about each band member and also prevents the users experience from being a bad one as this information takes up quite a lot of the screen especially on a mobile device where information layout and efficiency is vital.
 
 ### [Videos Page](https://github.com/colmcallan/milestone-project1/blob/master/html/videos.html)
-- In this section, the user can view three extrememly popular and well known singles from the band. 
-- Originally the layout for this was just a basic iframe encoding, however through further research into bootstraps capabilites i came across a carousel property for iframe videos and linked them to the videos. this is the only carousel property on the website that isn't hidden from mobile as with some minor media query adjustments it looks quite well on a mobile device.
+- In this section, the user can view several extrememly popular and well known singles from the band and experience what they're like live. 
+- Originally the layout for this was to have a three video carousel, however, through testing on several mobile devices it wasn't suited for anything smaller than a tablet for usability with the right/left selection for videos and i went back to basics with the current format.
 - Again we have a booking call to action option for the user as this is the second time they will have listened to the band on the website and it's to re-inforce the home page message of booking the band for whatever their booking is for. 
 
 ### [Albums Page](https://github.com/colmcallan/milestone-project1/blob/master/html/albums.html)
 - This is where the user can see all albums of the original band members and each album artwork is linked directly to purchase the album on itunes.
 - 
-### [Tour Page]()
+### [Tour Page](https://github.com/colmcallan/milestone-project1/blob/master/tour.html)
 - This is where fans and potential new fans can book the band during their upcoming tour and view sold out dates and available dates to book in the location. 
+- The booking modal on this site was used from w3schools band section for bootstrap and changed to suit the theme of my webpage and design.
 
 ### All Pages
 - Back to Top Button - this allows a user to navigate straight back to the top of the page if they would like to visit another section. It comes in extremely useful on a long section on a mobile device and saves accidental clicking on items on webpages and ease of use.
