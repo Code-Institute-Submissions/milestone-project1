@@ -144,11 +144,14 @@ body {
  text-align: center;
  font-family: 'Roboto', sans-serif;
  color: #fafafa;
- height: 100%;
- background: url('./images/black-sabbath-collage.jpg') no-repeat center center;
+ background: url('./images/black-sabbath-collage.jpg') no-repeat center center fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
+ background-size: cover;
+ height: 100%;
+ overflow: hidden;
+
 }
 
 /*media query body*/
@@ -160,11 +163,15 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #fafafa;
-  height: 100%;
-  background: url('./images/black-sabbath-collage.jpg') no-repeat center center;
+
+  background: url('./images/black-sabbath-collage.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+  height: 100%;
+  overflow: hidden;
+
 
  }
 
@@ -177,11 +184,14 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #fafafa;
+  background: url('./images/black-sabbath-collage.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   height: 100%;
-  background: url('./images/black-sabbath-collage.jpg') no-repeat center center;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
+  overflow: hidden;
+
  }
 
 }
@@ -193,11 +203,14 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #fafafa;
+  background: url('./images/black-sabbath-collage.jpg')no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   height: 100%;
-  background: url('./images/black-sabbath-collage.jpg') no-repeat center center;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
+  overflow: hidden;
+
  }
 }
 
@@ -209,11 +222,14 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #fafafa;
-  height: 100%;
   background: url('./images/black-sabbath-collage.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+
  }
 }
 
