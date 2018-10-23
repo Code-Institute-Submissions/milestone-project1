@@ -114,37 +114,37 @@
           <div class="row text-center">
             <div class="col-sm-4">
               <div class="thumbnail">
-                <img class "booking" src="images/dublin.jpg" alt="Dublin" width="400" height="300">
+                <img src="images/dublin.jpg" alt="Dublin" width="400" height="300">
                 <div class="transboxbookingcity">
                   <p><strong>Dublin</strong></p>
                   <p>Friday 27 December 2018</p>
-                  <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+                  <button class="btn" data-toggle="modal" data-target="#myModal3">Buy Tickets</button>
                 </div>
               </div>
             </div>
             <div class="col-sm-4">
               <div class="thumbnail">
-                <img class "booking" src="images/belfast.jpg" alt="Belfast" width="400" height="300">
+                <img src="images/belfast.jpg" alt="Belfast" width="400" height="300">
                 <div class="transboxbookingcity">
                   <p><strong>Belfast</strong></p>
                   <p>Saturday 28 December 2018</p>
-                  <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+                  <button class="btn" data-toggle="modal" data-target="#myModal3">Buy Tickets</button>
                 </div>
               </div>
             </div>
             <div class="col-sm-4">
               <div class="thumbnail">
-                <img class "booking" src="images/London.jpg" alt="London" width="400" height="300">
+                <img src="images/London.jpg" alt="London" width="400" height="300">
                 <div class="transboxbookingcity">
                   <p><strong>London</strong></p>
                   <p>Sunday 29 December 2018</p>
-                  <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+                  <button class="btn" data-toggle="modal" data-target="#myModal3">Buy Tickets</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      <hr class="hr">
+        <hr class="hr">
       </div>
     </section>
     <!-- Modal -->
@@ -158,10 +158,10 @@
             <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
           </div>
           <div class="modal-body">
-            <form role="form">
+            <form>
               <div class="form-group">
-                <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, €60.00 per person</label>
-                <input type="number" class="form-control" id="psw" placeholder="How many?">
+                <label for="price"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, €60.00 per person</label>
+                <input type="number" class="form-control" id="price" placeholder="How many?">
               </div>
               <div class="form-group">
                 <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
@@ -204,29 +204,29 @@
 
 
 
-<!-- Sign up Modal -->
-    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Register here for monthly updates from the band!</h4>
-          </div>
-          <div class="modal-body">
-         <!--Form Start-->
-            <form>
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Full Name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email Address</label>
-                    <input type="email" class="form-control" id="email2" placeholder="paulsimons@here.com" required>
-                    <p class="help-block">We'll never share your email address with any third-party company. </p>
-                </div>
-                <div class="form-group">
-                    <label for="date">Date of Birth</label> <br>
-                    <select name="day" id="date" required>
+  <!-- Sign up Modal -->
+  <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Register here for monthly updates from the band!</h4>
+        </div>
+        <div class="modal-body">
+          <!--Form Start-->
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Full Name" required>
+            </div>
+            <div class="form-group">
+              <label for="email2">Email Address</label>
+              <input type="email" class="form-control" id="email2" placeholder="paulsimons@here.com" required>
+              <p class="help-block">We'll never share your email address with any third-party company. </p>
+            </div>
+            <div class="form-group">
+              <label for="date">Date of Birth</label> <br>
+              <select name="day" id="date" required>
         				<option value="">Day</option>
         				<option value="1">1</option>
         				<option value="2">2</option>
@@ -260,7 +260,7 @@
         				<option value="30">30</option>
         				<option value="31">31</option>
         			</select>
-        			<select name="month" required> 
+              <select name="month" required> 
         				<option value="">Month</option>
         				<option value="January">January</option>
         				<option value="February">February</option>
@@ -275,7 +275,7 @@
         				<option value="November">November</option>
         				<option value="December">December</option>
         			</select>
-        			<select name="year" required>
+              <select name="year" required>
         				<option value="">Year</option>
         				<option value="2018">2018</option>
         				<option value="2017">2017</option>
@@ -397,26 +397,27 @@
 						<option value="1901">1901</option>
 						<option value="1900">1900</option>
         		    </select>
-                </div>
-                <div class="form-group">
-                    <label for="male">Gender</label> <br>
-                    <label class="radio-inline">
+            </div>
+            <div class="form-group">
+              <label for="male">Gender</label> <br>
+              <label class="radio-inline">
                     <input type="radio" name="gender" id="male" value="Male">Male</label>
-                    <label for="female"></label>
-                    <label class="radio-inline">
+              <label for="female"></label>
+              <label class="radio-inline">
                     <input type="radio" name="gender" id="female" value="Female">Female</label>
-                </div>
-                <div class="button-middle">
-                  <button type="submit" class="btn btn-success">Register</button>
-                </div>
-            </form>
-        <!--Form End-->
-          </div>
+            </div>
+            <div class="button-middle">
+              <button type="submit" class="btn btn-success">Register</button>
+            </div>
+          </form>
+          <!--Form End-->
         </div>
       </div>
     </div>
+  </div>
+  <!--Form modal End-->
   <!-- Modal tickets-->
-  <div class="modal fade" id="myModal" role="dialog">
+  <div class="modal fade" id="myModal3" role="dialog">
     <div class="modal-dialog">
 
       <!-- Modal content-->
@@ -426,14 +427,14 @@
           <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
         </div>
         <div class="modal-body">
-          <form role="form">
+          <form>
             <div class="form-group">
-              <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, €60.00 per person</label>
-              <input type="number" class="form-control" id="psw" placeholder="How many?">
+              <label for="price2"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, €60.00 per person</label>
+              <input type="number" class="form-control" id="price2" placeholder="How many?">
             </div>
             <div class="form-group">
-              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
-              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+              <label for="username"><span class="glyphicon glyphicon-user"></span> Send To</label>
+              <input type="text" class="form-control" id="username" placeholder="Enter email">
             </div>
             <button type="submit" class="btn btn-block">Pay 
                 <span class="glyphicon glyphicon-ok"></span>
@@ -446,6 +447,8 @@
           </button>
           <p>Need <a href="#">help?</a></p>
         </div>
+      </div>
+      </div>
       </div>
 
 
