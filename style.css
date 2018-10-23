@@ -165,7 +165,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-   zoom: normal;
+   zoom: 0;
  }
 
 }
@@ -182,6 +182,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  zoom: 0;
  }
 
 }
