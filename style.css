@@ -165,7 +165,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  
+
  }
 
 }
@@ -182,7 +182,8 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
- 
+  background-size: 100%;
+  width: 100%;
  }
 
 }
@@ -199,6 +200,8 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: 100%;
+  width: 100%;
  }
 }
 
