@@ -96,7 +96,7 @@ I was able to deploy the website here by going to my repository in which all the
 I didn't use any github themes for this project.
 It was locally created using cloud9 and pushed into my github repository from there.
 ## Credits
-My friend Jimmy Tuck reviewed my site to ensure all the above was fluid and user friendly. 
+
 ### Content
 
 The text for the section "Ozzy Osbourne" was taken from the Wikipedia article [Ozzy Osbourne](https://en.wikipedia.org/wiki/Ozzy_Osbourne)
@@ -107,6 +107,7 @@ The text for the section "Geezer Butler" was taken from the Wikipedia article [G
 
 The text for the section "Bill Ward" was taken from the Wikipedia article [Bill Ward](https://en.wikipedia.org/wiki/Bill_Ward_(musician)
 
+The text for the section on the index page was taken from the wikipedia article [Black Sabbath](https://en.wikipedia.org/wiki/Black_Sabbath)
 ### Media Content
 The photos used on this site were obtained from various sources and the references can be found [here](https://github.com/colmcallan/milestone-project1/tree/master/html/images)
 
