@@ -144,14 +144,11 @@ body {
  text-align: center;
  font-family: 'Roboto', sans-serif;
  color: #fafafa;
+ height: 100%;
  background: url('./images/black-sabbath-collage.jpg') no-repeat center center fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
- background-size:100% 100%; 
-  background-repeat: no-repeat;
-  height: 100vh;
-
 }
 
 /*media query body*/
@@ -163,16 +160,12 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #fafafa;
-
+  height: 100%;
   background: url('./images/black-sabbath-collage.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size:100% 100%; 
-  background-repeat: no-repeat;
-  height: 100vh;
-
-
+  
  }
 
 }
@@ -184,14 +177,11 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #fafafa;
+  height: 100%;
   background: url('./images/black-sabbath-collage.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size:100% 100%; 
-  background-repeat: no-repeat;
-  height: 100vh;
-
  }
 
 }
@@ -203,14 +193,11 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #fafafa;
-  background: url('./images/black-sabbath-collage.jpg')no-repeat center center fixed;
+  height: 100%;
+  background: url('./images/black-sabbath-collage.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size:100% 100%; 
-  background-repeat: no-repeat;
-  height: 100vh;
-
  }
 }
 
@@ -222,14 +209,11 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #fafafa;
+  height: 100%;
   background: url('./images/black-sabbath-collage.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size:100% 100%; 
-  background-repeat: no-repeat;
-  height: 100vh;
-
  }
 }
 
