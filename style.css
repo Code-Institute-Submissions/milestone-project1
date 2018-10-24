@@ -56,6 +56,7 @@
 
 .container-fluid {
  margin: 0px;
+ padding: 0px;
 }
 
 .navbar-brand {
@@ -388,6 +389,22 @@ audio {
 /*media Query*/
 
 @media (max-width: 425px) {
+ .transboxhome {
+  border: 1px;
+  border-style: solid;
+  border-color: grey;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 22px;
+  padding: 10px;
+
+ }
+
+
+ .transboxhome p {
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+ }
  audio {
   width: 200px;
   height: 54px;
@@ -406,8 +423,8 @@ audio {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 22px;
   padding-bottom: 10px;
-  width: 260px;
-  height: 400px;
+  width: auto;
+  height: 620px;
   margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -415,34 +432,13 @@ audio {
  .audio-wrapper {
   text-align: center;
  }
-
-}
-
-@media (max-width: 425px) {
- .transboxhome {
-  border: 1px;
-  border-style: solid;
-  border-color: grey;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 22px;
-  padding: 10px;
-
- }
-
-
- .transboxhome p {
-  font-weight: bold;
-  color: #FFFFFF;
-  text-align: center;
- }
-
 }
 
 /* Extra small devices (phones, 600px and down) */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
  audio {
-  width: 200px;
+  width: 240px;
   height: 54px;
   margin-left: auto;
   margin-right: auto;
@@ -455,7 +451,33 @@ audio {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 22px;
   padding-bottom: 10px;
-  width: 260px;
+  width: 350px;
+  height: 620px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ .audio-wrapper {
+  text-align: center;
+ }
+}
+
+@media only screen and (min-width: 600px) {
+ audio {
+  width: 240px;
+  height: 54px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ #audiosection {
+  margin-top: 20px;
+  border: 1px;
+  border-style: solid;
+  border-color: grey;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 22px;
+  padding-bottom: 10px;
+  width: 320px;
   height: 620px;
   margin-bottom: 10px;
   margin-left: auto;
@@ -510,9 +532,9 @@ audio {
   border-color: grey;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 22px;
-  padding-bottom: 10px;
-  width: 260px;
-  height: 700px;
+  padding: 10px;
+  width: 706px;
+  height: 400px;
   margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -880,6 +902,14 @@ ul {
   width: 300px;
 
  }
+ .albumartwork {
+  margin-top: 25px;
+  height: 250px;
+  width: 250px;
+  border-radius: 22px;
+  margin-left: auto;
+  margin-right: auto;
+ }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -902,6 +932,14 @@ ul {
   width: 300px;
 
  }
+ .albumartwork {
+  margin-top: 25px;
+  height: 250px;
+  width: 250px;
+  border-radius: 22px;
+  margin-left: auto;
+  margin-right: auto;
+ }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -921,8 +959,16 @@ ul {
   border-color: grey;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 22px;
-  width: 300px;
+  width: auto;
 
+ }
+ .albumartwork {
+  margin-top: 25px;
+  height: 200px;
+  width: 200px;
+  border-radius: 22px;
+  margin-left: auto;
+  margin-right: auto;
  }
 }
 
@@ -945,6 +991,14 @@ ul {
   border-radius: 22px;
   width: 300px;
 
+ }
+ .albumartwork {
+  margin-top: 25px;
+  height: 250px;
+  width: 250px;
+  border-radius: 22px;
+  margin-left: auto;
+  margin-right: auto;
  }
 }
 
