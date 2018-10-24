@@ -170,7 +170,15 @@ body {
   -o-background-size: cover;
   background-size: cover;
  }
-
+.transboxhome {
+ margin-top: 20px;
+ border: 1px;
+ border-style: solid;
+ border-color: grey;
+ background-color: rgba(0, 0, 0, 0.5);
+ border-radius: 22px;
+ padding-bottom: 10px;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -187,9 +195,16 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
  background-size: cover;
-  
  }
-
+.transboxhome {
+ margin-top: 20px;
+ border: 1px;
+ border-style: solid;
+ border-color: grey;
+ background-color: rgba(0, 0, 0, 0.5);
+ border-radius: 22px;
+ padding-bottom: 10px;
+}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -207,6 +222,15 @@ body {
   -o-background-size: cover;
   background-size: cover;
  }
+ .transboxhome {
+ margin-top: 20px;
+ border: 1px;
+ border-style: solid;
+ border-color: grey;
+ background-color: rgba(0, 0, 0, 0.5);
+ border-radius: 22px;
+ padding-bottom: 10px;
+}
 }
 
 
@@ -224,6 +248,15 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
  }
+ .transboxhome {
+ margin-top: 20px;
+ border: 1px;
+ border-style: solid;
+ border-color: grey;
+ background-color: rgba(0, 0, 0, 0.5);
+ border-radius: 22px;
+ padding-bottom: 10px;
+}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -239,6 +272,15 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
  }
+ .transboxhome {
+ margin-top: 20px;
+ border: 1px;
+ border-style: solid;
+ border-color: grey;
+ background-color: rgba(0, 0, 0, 0.5);
+ border-radius: 22px;
+ padding-bottom: 10px;
+}
 }
 
 /* index*/
@@ -349,7 +391,8 @@ audio {
  audio {
   width: 200px;
   height: 54px;
-  float: left;
+  margin-left: auto;
+  margin-right: auto;
  }
  #audiosection {
   margin-top: 20px;
@@ -360,6 +403,8 @@ audio {
   border-radius: 22px;
   padding-bottom: 10px;
   width: 260px;
+  margin-left: auto;
+  margin-right: auto;
  }
  .audio-wrapper {
   text-align: center;
@@ -374,6 +419,7 @@ audio {
   border-color: grey;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 22px;
+  
  }
 
 
@@ -385,16 +431,138 @@ audio {
  }
 
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+ audio {
+  width: 200px;
+  height: 54px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ #audiosection {
+  margin-top: 20px;
+  border: 1px;
+  border-style: solid;
+  border-color: grey;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 22px;
+  padding-bottom: 10px;
+  width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ .audio-wrapper {
+  text-align: center;
+ }
+} 
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ audio {
+  width: 200px;
+  height: 54px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ #audiosection {
+  margin-top: 20px;
+  border: 1px;
+  border-style: solid;
+  border-color: grey;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 22px;
+  padding-bottom: 10px;
+  width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ .audio-wrapper {
+  text-align: center;
+ }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+ audio {
+  width: 250px;
+  height: 54px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ #audiosection {
+  margin-top: 20px;
+  border: 1px;
+  border-style: solid;
+  border-color: grey;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 22px;
+  padding-bottom: 10px;
+  width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ .audio-wrapper {
+  text-align: center;
+ }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {audio {
+  width: 250px;
+  height: 54px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ #audiosection {
+  margin-top: 20px;
+  border: 1px;
+  border-style: solid;
+  border-color: grey;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 22px;
+  padding-bottom: 10px;
+  width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ .audio-wrapper {
+  text-align: center;
+ }} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+ audio {
+  width: 350px;
+  height: 54px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ #audiosection {
+  margin-top: 20px;
+  border: 1px;
+  border-style: solid;
+  border-color: grey;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 22px;
+  padding-bottom: 10px;
+  width: 370px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ .audio-wrapper {
+  text-align: center;
+ }
+}
 /* band page */
 
-.transbox {
+.transboxband {
  margin: 10px;
  border: 1px;
  border-style: solid;
  border-color: grey;
  background-color: rgba(0, 0, 0, 0.5);
  border-radius: 22px;
+ border-left-color: grey;
 }
 
 blockquote {

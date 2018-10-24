@@ -42,3 +42,13 @@ $(document).ready(function() {
 });
 
 
+// Read More Button for Home Page
+
+$(document).ready(function() {
+  $("#Home").on("hide.bs.collapse", function() {
+    $(".info").html('<span class="glyphicon glyphicon-collapse-down"></span> Read More');
+  });
+  $("#Home").on("show.bs.collapse", function() {
+    $(".info").html('<span class="glyphicon glyphicon-collapse-up"></span> Read Less');
+  });
+});
