@@ -52,3 +52,6 @@ $(document).ready(function() {
     $(".info").html('<span class="glyphicon glyphicon-collapse-up"></span> Read Less');
   });
 });
+
+
+

@@ -492,7 +492,7 @@ audio {
 
 @media only screen and (min-width: 600px) {
  audio {
-  width: 200px;
+  width: auto;
   height: 54px;
   margin-left: auto;
   margin-right: auto;
@@ -1021,6 +1021,14 @@ ul {
   border-radius: 22px;
   width: 300px;
 
+ }
+ .albumartwork {
+  margin-top: 25px;
+  height: 250px;
+  width: 250px;
+  border-radius: 22px;
+  margin-left: auto;
+  margin-right: auto;
  }
 }
 
