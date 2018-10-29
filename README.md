@@ -8,7 +8,7 @@
 The purpose of this project is to create a static **(front-end only)** website for a 1960’s rock band who have around 50 years experience of performing live at numerous events around the world. The target audiences for this website are fans of Black Sabbath and potential fans who would like to use the site to see and hear clips from their back catalog, and any new material as it becomes available.
 
 **In order for the target audience to achieve these things when visiting my website, I incorporated the following:**
-- Audio clips for visitors to listen to some of the bands songs; Spotify was the source for these snippets as it will prompt the user to either sign up to spotify to listen to more, or log in to their spotify to listen to the full song.
+- Audio clips for visitors to listen to some of the bands songs; originally i used spotify for this, however the default design didn't suit my site so i used the <audio> attribute to host the songs.
 - Video files so the visitors can view the band performing. Taken from the bands youtube page.
 - A discography page that links to user to the itunes purchase site for each album.
 - A sign up page for the user to register to receive information on new music releases, tours, ticket releases etc.
@@ -43,7 +43,7 @@ The purpose of this project is to create a static **(front-end only)** website f
 
 ### [Albums Page](https://github.com/colmcallan/milestone-project1/blob/master/html/albums.html)
 - This is where the user can see all albums of the original band members and each album artwork is linked directly to purchase the album on itunes.
-- 
+-
 ### [Tour Page](https://github.com/colmcallan/milestone-project1/blob/master/tour.html)
 - This is where fans and potential new fans can book the band during their upcoming tour and view sold out dates and available dates to book in the location. 
 - The booking modal on this site was used from w3schools band section for bootstrap and changed to suit the theme of my webpage and design.
@@ -59,7 +59,7 @@ The purpose of this project is to create a static **(front-end only)** website f
 - **CSS** - This was used to style the website 
 - **[Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/)** - This was used to get the layout up and running quickly and also use grids to help with the responsive design
 - **[JavaScript](https://www.javascript.com/)** - This was used to add picture modals for each of the band members
-- **[JQuery](https://jquery.com/)** - This was used to add read more buttons within some of the pages and also used for the back to top button to add a smooth scroll and fade aswell as the bootstrap video carousel
+- **[JQuery](https://jquery.com/)** - This was used to add read more buttons within some of the pages and also used for the back to top button to add a smooth scroll and fade aswell.
 
 ## Testing
 
@@ -87,7 +87,7 @@ I have thoroughly tested this website and worked out any small design bugs that 
 I had no raised major issues with design and functionality during testing of my webpage.
 
 ### Validation
-All files passed validation testing at https://validator.w3.org/nu/#textarea
+All files passed validation testing at https://validator.w3.org/nu
 
 ## Deployment
 My website is currently deployed on Github Pages - https://colmcallan.github.io/milestone-project1/
@@ -115,10 +115,8 @@ The videos used on this site were taken from the [Black Sabbaths youtube page](h
 
 ### Acknowledgements
 - [Code Institute](https://www.codeinstitute.net/)
-- Rohan Hapani - His smooth scroll design using JQuery on [Codepen](https://codepen.io/desirecode/pen/MJPJqV/) really helped me with my back to top button as I felt without the use of JQuery, it didn't look too appealing when you click the button and it jumps straight back to the top.
-- Legendary - I took inspiration from this read more/read less button using JQuery on [Codepen](https://codepen.io/legendaryPower/pen/dvJQvB) as I felt that the sections on the band members page were very long on a mobile. This helped shorten the length and give the user the option to read more and also read less.
-- [W3schools.com](https://www.w3schools.com/howto/howto_css_modal_images.asp) - I used their modal description to add modal images to each of the band members pictures on the Band page.
-- [W3schools.com](https://www.w3schools.com/bootstrap/bootstrap_theme_band.asp) - I used their carousel and ticket booking modal for images in the band page and news page.
-- [Bootstrap](https://getbootstrap.com/docs/3.3/javascript/#carousel) - I used the carousel example on Bootstrap to set up my carousel of pictures on the Home page.
-- Rune Stenstroem - I took inspiration from this carousel feature to use in the videos section as the layout prior was very bulky looking and on a mobile device cause a lot of unnescerary scrolling for the user. [Codepen](https://codepen.io/RuneStenstroem/pen/vgBEZo)
+- Rohan Hapani - The smooth scroll design using JQuery on [Codepen](https://codepen.io/desirecode/pen/MJPJqV/) really helped me with my back to top button.
+- [W3schools.com](https://www.w3schools.com/howto/howto_css_modal_images.asp) - I used their modal description to add modal images to each of the band members pictures.
+- [W3schools.com](https://www.w3schools.com/bootstrap/bootstrap_theme_band.asp) - I used their carousel method and ticket booking system and altered the design with CSS to suite the theme of my site.
+
 

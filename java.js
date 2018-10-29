@@ -1,3 +1,5 @@
+
+//https://validator.w3.org/
 // Read More Button for Osbourne
 
 $(document).ready(function() {
