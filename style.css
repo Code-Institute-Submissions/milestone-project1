@@ -136,8 +136,23 @@
  font-size: 30px;
 }
 
+/*media query nav bar and image*/
 
+@media only screen and (max-width: 425px) {
+ .container-fluid>.navbar-header {
+  margin: auto;
+ }
+}
 
+@media only screen and (min-width: 600px) {
+ .container-fluid>.navbar-header {
+  margin: auto;
+ }
+ .navbar-brand>img {
+  display: block;
+  margin-left: 30px;
+ }
+}
 
 /*background for all pages*/
 
@@ -165,11 +180,11 @@
   color: #fafafa;
   height: 100%;
   width: 100%;
-  background: url('./images/black-sabbath-collage.jpg') no-repeat center center fixed;
+  background: url('./images/black-sabbath-collage.jpg') center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: auto;
  }
  .transboxhome {
   margin-top: 20px;
@@ -221,7 +236,7 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: auto;
  }
  .transboxhome {
   margin-top: 20px;
@@ -248,6 +263,7 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: auto;
  }
  .transboxhome {
   margin-top: 20px;
@@ -286,6 +302,10 @@
 
 /* index*/
 
+.song-pictures {
+ padding: 10px;
+}
+
 .carousel-control.right {
  right: 0;
  left: auto;
@@ -310,6 +330,18 @@
  height: 450px;
 }
 
+.audio-wrapper {
+ margin-top: 20px;
+ border: 1px;
+ border-style: solid;
+ border-color: grey;
+ background-color: rgba(0, 0, 0, 0.5);
+ border-radius: 22px;
+ padding-bottom: 10px;
+ width: 330px;
+ text-align: center;
+}
+
 audio {
  width: 300px;
  height: 54px;
@@ -328,20 +360,6 @@ audio {
  background-color: rgba(0, 0, 0, 0.5);
  border-radius: 22px;
  padding: 10px;
-}
-
-
-#audiosection {
- margin-top: 20px;
- border: 1px;
- border-style: solid;
- border-color: grey;
- background-color: rgba(0, 0, 0, 0.5);
- border-radius: 22px;
- padding-bottom: 10px;
- width: 360px;
- height: 590px;
- text-align: center;
 }
 
 .transboxhome h1 h2 {
@@ -406,16 +424,13 @@ audio {
   text-align: center;
  }
  audio {
-  width: 300px;
+  width: 260px;
   height: 54px;
   margin-left: auto;
   margin-right: auto;
  }
 
- article {
-  margin: 0 auto;
- }
- #audiosection {
+ .audio-wrapper {
   margin-top: 20px;
   border: 1px;
   border-style: solid;
@@ -423,14 +438,10 @@ audio {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 22px;
   padding-bottom: 10px;
-  width: auto;
-  height: 620px;
-  margin-bottom: 10px;
+  width: 315px;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
- }
- .audio-wrapper {
-  text-align: center;
  }
 }
 
@@ -443,7 +454,7 @@ audio {
   margin-left: auto;
   margin-right: auto;
  }
- #audiosection {
+ .audio-wrapper {
   margin-top: 20px;
   border: 1px;
   border-style: solid;
@@ -451,42 +462,13 @@ audio {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 22px;
   padding-bottom: 10px;
-  width: 350px;
-  height: 620px;
-  margin-bottom: 10px;
+  width: 290px;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
- }
- .audio-wrapper {
-  text-align: center;
  }
 }
 
-@media only screen and (min-width: 600px) {
- audio {
-  width: 240px;
-  height: 54px;
-  margin-left: auto;
-  margin-right: auto;
- }
- #audiosection {
-  margin-top: 20px;
-  border: 1px;
-  border-style: solid;
-  border-color: grey;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 22px;
-  padding-bottom: 10px;
-  width: 320px;
-  height: 620px;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
- }
- .audio-wrapper {
-  text-align: center;
- }
-}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
@@ -497,7 +479,7 @@ audio {
   margin-left: auto;
   margin-right: auto;
  }
- #audiosection {
+ .audio-wrapper {
   margin-top: 20px;
   border: 1px;
   border-style: solid;
@@ -505,14 +487,10 @@ audio {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 22px;
   padding-bottom: 10px;
-  width: 260px;
-  height: 620px;
-  margin-bottom: 10px;
+  width: 330px;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
- }
- .audio-wrapper {
-  text-align: center;
  }
 }
 
@@ -525,24 +503,18 @@ audio {
   margin-left: auto;
   margin-right: auto;
  }
- #audiosection {
+ .audio-wrapper {
   margin-top: 20px;
   border: 1px;
   border-style: solid;
   border-color: grey;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 22px;
-  padding: 10px;
-  width: 706px;
-  height: 400px;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
+  width: 300px;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
-  float: none;
- }
- .audio-wrapper {
-  text-align: center;
-  float: none;
  }
 }
 
@@ -552,10 +524,9 @@ audio {
  audio {
   width: 250px;
   height: 54px;
-  margin-left: auto;
-  margin-right: auto;
+
  }
- #audiosection {
+ .audio-wrapper {
   margin-top: 20px;
   border: 1px;
   border-style: solid;
@@ -563,12 +534,11 @@ audio {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 22px;
   padding-bottom: 10px;
-  width: 350px;
-  height: 600px;
- }
- .audio-wrapper {
+  width: 330px;
   text-align: center;
-  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
  }
 }
 
@@ -582,7 +552,7 @@ audio {
   margin-right: auto;
 
  }
- #audiosection {
+ .audio-wrapper {
   margin-top: 20px;
   border: 1px;
   border-style: solid;
@@ -590,12 +560,10 @@ audio {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 22px;
   padding-bottom: 10px;
-  width: 400px;
-  height: 600px;
- }
- .audio-wrapper {
+  width: 370px;
   text-align: center;
-  float: none;
+  margin-left: auto;
+  margin-right: auto;
  }
 }
 
@@ -609,6 +577,7 @@ audio {
  background-color: rgba(0, 0, 0, 0.5);
  border-radius: 22px;
  border-left-color: grey;
+ padding-bottom: 20px;
 }
 
 blockquote {
@@ -1049,8 +1018,14 @@ ul {
 
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img {
- width: 1000px;
- height: 550px;
+
+ position: relative;
+ width: 600px;
+ height: 400px;
+ overflow: hidden;
+ margin-right: auto;
+ margin-left: auto;
+
 }
 
 .carousel-inner img {
