@@ -21,7 +21,7 @@ The purpose of this project is to create a static **(front-end only)** website f
  ### Wireframe Mockups
  
  These can be found at the following links below:
- (https://github.com/colmcallan/milestone-project1/tree/master/Wire%20Frames)
+ [wire frame](https://github.com/colmcallan/milestone-project1/tree/master/Wire%20Frames)
 
 
 
