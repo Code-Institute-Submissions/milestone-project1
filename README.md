@@ -30,6 +30,7 @@ The purpose of this project is to create a static **(front-end only)** website f
 - transparent header. I used this feature to make the text stand out against the "busy" background so none of the text would get lost in translation. 
 - within the header, there's a call to action booking button for anyone who wishes to book the band after they listen to their song snippets. 
 - there is also a sign up news letter button (hidden in nav bar on mobile) for any potential new fans to sign up to the latest news and information.
+- I also added a read more button like in the band pages to ensure a better user experience on mobile and desktop, however especially mobile. 
 
 ### [Band Page](https://github.com/colmcallan/milestone-project1/blob/master/html/band.html)
 - Modal - this feature will allow a user to click on the picture of each band member to get a closer view and also has a nice caption added at the bottom
@@ -39,11 +40,12 @@ The purpose of this project is to create a static **(front-end only)** website f
 ### [Videos Page](https://github.com/colmcallan/milestone-project1/blob/master/html/videos.html)
 - In this section, the user can view several extrememly popular and well known singles from the band and experience what they're like live. 
 - Originally the layout for this was to have a three video carousel, however, through testing on several mobile devices it wasn't suited for anything smaller than a tablet for usability with the right/left selection for videos and i went back to basics with the current format.
-- Again we have a booking call to action option for the user as this is the second time they will have listened to the band on the website and it's to re-inforce the home page message of booking the band for whatever their booking is for. 
+- We have a booking call to action option for the user as this is the second time they will have listened to the band on the website and it's to re-inforce the home page message of booking the band for whatever their booking is for. 
 
 ### [Albums Page](https://github.com/colmcallan/milestone-project1/blob/master/html/albums.html)
 - This is where the user can see all albums of the original band members and each album artwork is linked directly to purchase the album on itunes.
--
+
+
 ### [Tour Page](https://github.com/colmcallan/milestone-project1/blob/master/tour.html)
 - This is where fans and potential new fans can book the band during their upcoming tour and view sold out dates and available dates to book in the location. 
 - The booking modal on this site was used from w3schools band section for bootstrap and changed to suit the theme of my webpage and design.
@@ -84,7 +86,8 @@ I have thoroughly tested this website and worked out any small design bugs that 
 -	Safari
 
 ### Issues/Bugs
-I had no raised major issues with design and functionality during testing of my webpage.
+I only had one issue on the band and albums page, the background image would zoom in on mobile devices on both these pages. 
+through research and trial and error this was resolved by setting the background size to auto in CSS. 
 
 ### Validation
 All files passed validation testing at https://validator.w3.org/nu
@@ -114,9 +117,9 @@ The photos used on this site were obtained from various sources and the referenc
 The videos used on this site were taken from the [Black Sabbaths youtube page](https://www.youtube.com/channel/UCrx-X329UKv0Y06VhfpFVvw)
 
 ### Acknowledgements
-- [Code Institute](https://www.codeinstitute.net/)
+- [Code Institute](https://www.codeinstitute.net/) for using bootstrap columns and layout functionality and proper use of media queries etc. 
 - Rohan Hapani - The smooth scroll design using JQuery on [Codepen](https://codepen.io/desirecode/pen/MJPJqV/) really helped me with my back to top button.
 - [W3schools.com](https://www.w3schools.com/howto/howto_css_modal_images.asp) - I used their modal description to add modal images to each of the band members pictures.
 - [W3schools.com](https://www.w3schools.com/bootstrap/bootstrap_theme_band.asp) - I used their carousel method and ticket booking system and altered the design with CSS to suite the theme of my site.
-
+- [W3schools.com] - I used this site as a great reference tool for assistance with some CSS queries I had with my media queries etc. 
 
